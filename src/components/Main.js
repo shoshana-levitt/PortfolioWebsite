@@ -1,6 +1,7 @@
 import React from "react";
 import Homepage from "./Homepage";
 import Info from "./Info";
+import Test from "./Test";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import { Button, AppBar, Toolbar } from "@mui/material";
 /*</Box>
@@ -23,12 +24,21 @@ const Main = () => {
             >
               Info
             </Button>
+            <Button
+              href="/test"
+              color="secondary"
+              variant="outlined"
+              sx={{ m: 1 }}
+            >
+              Test
+            </Button>
           </Toolbar>
         </AppBar>
         <main>
           <Routes>
             <Route path="/" element={<Homepage />} />
             <Route path="/info" element={<Info />} />
+            <Route path="/test" element={<Test />} />
           </Routes>
         </main>
       </div>
