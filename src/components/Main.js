@@ -1,9 +1,11 @@
 import React from "react";
+import { Link } from "react-scroll";
 import Homepage from "./Homepage";
 import Info from "./Info";
 import Test from "./Test";
 import Animations from "./Animations";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import { Button, AppBar, Toolbar } from "@mui/material";
 /*</Box>
     This is you entry point for your routes
@@ -34,6 +36,12 @@ const Main = () => {
               Test
             </Button>
             <Button
+              // component={Link}
+              // to="/animations"
+              // spy={true}
+              // smooth={true}
+              // offset={50}
+              // duration={500}
               href="/animations"
               color="secondary"
               variant="outlined"
