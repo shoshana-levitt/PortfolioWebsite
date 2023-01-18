@@ -2,6 +2,7 @@ import React from "react";
 import Homepage from "./Homepage";
 import Info from "./Info";
 import Test from "./Test";
+import Animations from "./Animations";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import { Button, AppBar, Toolbar } from "@mui/material";
 /*</Box>
@@ -32,6 +33,14 @@ const Main = () => {
             >
               Test
             </Button>
+            <Button
+              href="/animations"
+              color="secondary"
+              variant="outlined"
+              sx={{ m: 1 }}
+            >
+              Animations
+            </Button>
           </Toolbar>
         </AppBar>
         <main>
@@ -39,6 +48,7 @@ const Main = () => {
             <Route path="/" element={<Homepage />} />
             <Route path="/info" element={<Info />} />
             <Route path="/test" element={<Test />} />
+            <Route path="/animations" element={<Animations />} />
           </Routes>
         </main>
       </div>
