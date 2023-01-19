@@ -5,9 +5,7 @@ import { Route, Routes, BrowserRouter } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import { Button, AppBar, Toolbar, IconButton } from "@mui/material";
 import { Home } from "@mui/icons-material";
-/*</Box>
-    This is you entry point for your routes
-*/
+
 const Main = () => {
   return (
     <BrowserRouter>
