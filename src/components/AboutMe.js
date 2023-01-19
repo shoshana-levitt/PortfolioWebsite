@@ -5,8 +5,13 @@ import { motion, useAnimation } from "framer-motion";
 
 const AboutMe = () => {
   const boxVariant = {
-    visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
-    hidden: { opacity: 0, scale: 0 },
+    visible: {
+      opacity: 1,
+      scale: 1,
+      x: 0,
+      transition: { duration: 0.6, delay: 0.2 },
+    },
+    hidden: { opacity: 0, scale: 1, x: -200 },
   };
   const control = useAnimation();
   const [ref, inView] = useInView();
@@ -46,13 +51,7 @@ const AboutMe = () => {
               tootsie roll caramels bonbon. I love jelly muffin pie candy
               biscuit. Gummi bears carrot cake cheesecake dragée pastry halvah I
               love. Dessert pastry powder sweet topping. Wafer donut carrot cake
-              brownie dessert sugar plum gummies macaroon. <br></br>
-              Chocolate bar pie I love liquorice jelly beans toffee. Powder
-              jelly gingerbread brownie biscuit cake. Cake sweet roll caramels
-              fruitcake I love shortbread brownie cheesecake. Toffee danish tart
-              soufflé pie sugar plum. Lemon drops jelly-o apple pie gingerbread
-              biscuit candy cupcake. Chupa chups I love jelly beans cheesecake
-              apple pie lemon drops ice cream.
+              brownie dessert sugar plum gummies macaroon.
             </Typography>
           </Box>
         </motion.div>
