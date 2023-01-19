@@ -14,25 +14,15 @@ const Main = () => {
   return (
     <BrowserRouter>
       <div>
-        <AppBar position="static">
+        <AppBar position="fixed">
           <Toolbar sx={{ p: -1 }}>
-            <Button href="/" color="secondary" variant="outlined" sx={{ m: 1 }}>
+            <Button href="/" color="secondary" variant="text" sx={{ m: 1 }}>
               Home
             </Button>
-            <Button
-              href="/info"
-              color="secondary"
-              variant="outlined"
-              sx={{ m: 1 }}
-            >
+            <Button href="/info" color="secondary" variant="text" sx={{ m: 1 }}>
               Info
             </Button>
-            <Button
-              href="/test"
-              color="secondary"
-              variant="outlined"
-              sx={{ m: 1 }}
-            >
+            <Button href="/test" color="secondary" variant="text" sx={{ m: 1 }}>
               Test
             </Button>
             <Button
@@ -44,13 +34,14 @@ const Main = () => {
               // duration={500}
               href="/animations"
               color="secondary"
-              variant="outlined"
+              variant="text"
               sx={{ m: 1 }}
             >
               Animations
             </Button>
           </Toolbar>
         </AppBar>
+        <Toolbar></Toolbar>
         <main>
           <Routes>
             <Route path="/" element={<Homepage />} />

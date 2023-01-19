@@ -1,81 +1,113 @@
 import React from "react";
 import { HashLink } from "react-router-hash-link";
-import { Typography } from "@mui/material";
+import { Typography, Box } from "@mui/material";
 
 const Animations = () => {
   return (
     <>
-      <div>
-        <HashLink smooth to="/#home">
-          Home
-        </HashLink>
-        <HashLink smooth to="/#services">
-          Services
-        </HashLink>
-        <HashLink smooth to="/#testimonial">
-          Testimonial
-        </HashLink>
-      </div>
-      <div>
-        <section id="home">
-          <h1> Home </h1>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, nam!
-            Iure officia aut esse tempore accusantium explicabo? Corporis
-            deleniti ipsa fuga quas aut neque dicta nostrum laboriosam, iusto
-            ullam minima est porro, totam saepe. Facilis aliquid praesentium,
-            voluptates rem quibusdam sequi numquam illo eius adipisci eaque,
-            necessitatibus consectetur, labore vero et ipsum. Officiis, ea vero.
-            Praesentium, et. Enim, nostrum illo.
-          </p>
-        </section>
-        <section id="services">
-          <h1> Services </h1>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, nam!
-            Iure officia aut esse tempore accusantium explicabo? Corporis
-            deleniti ipsa fuga quas aut neque dicta nostrum laboriosam, iusto
-            ullam minima est porro, totam saepe. Facilis aliquid praesentium,
-            voluptates rem quibusdam sequi numquam illo eius adipisci eaque,
-            necessitatibus consectetur, labore vero et ipsum. Officiis, ea vero.
-            Praesentium, et. Enim, nostrum illo.
-          </p>
-        </section>
-        <section id="testimonial">
-          <h1> Testimonial </h1>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, nam!
-            Iure officia aut esse tempore accusantium explicabo? Corporis
-            deleniti ipsa fuga quas aut neque dicta nostrum laboriosam, iusto
-            ullam minima est porro, totam saepe. Facilis aliquid praesentium,
-            voluptates rem quibusdam sequi numquam illo eius adipisci eaque,
-            necessitatibus consectetur, labore vero et ipsum. Officiis, ea vero.
-            Praesentium, et. Enim, nostrum illo.
-          </p>
-        </section>
-      </div>
+      <HashLink smooth to="#intro">
+        Intro
+      </HashLink>
+      <HashLink smooth to="#aboutme">
+        About Me
+      </HashLink>
+      <HashLink smooth to="#projects">
+        Projects
+      </HashLink>
+      <section id="info">
+        <Box height="100vh" display="flex">
+          <Typography variant="h1" align="center" margin={10}>
+            Info
+          </Typography>
+          <Typography variant="h5" align="center" margin={10}>
+            Cupcake ipsum dolor sit amet. Wafer apple pie cake halvah tiramisu.
+            Marzipan marshmallow pie muffin sweet roll fruitcake donut. I love
+            carrot cake ice cream apple pie I love lollipop jelly beans
+            tiramisu. Pudding soufflé cookie halvah tootsie roll I love.
+            Tiramisu cookie danish I love I love I love pie. I love cake candy
+            pastry I love jelly beans. Marshmallow jelly brownie candy canes
+            marshmallow icing. <br></br>
+            Soufflé biscuit sweet roll oat cake jelly-o. Cheesecake tootsie roll
+            jelly shortbread I love wafer. Pie gingerbread halvah sweet roll
+            croissant chupa chups tiramisu. Sugar plum tiramisu soufflé
+            fruitcake topping pie I love candy canes cheesecake. I love tootsie
+            roll sesame snaps I love liquorice cake. Caramels bonbon tootsie
+            roll caramels bonbon. I love jelly muffin pie candy biscuit. Gummi
+            bears carrot cake cheesecake dragée pastry halvah I love. Dessert
+            pastry powder sweet topping. Wafer donut carrot cake brownie dessert
+            sugar plum gummies macaroon. <br></br>
+            Chocolate bar pie I love liquorice jelly beans toffee. Powder jelly
+            gingerbread brownie biscuit cake. Cake sweet roll caramels fruitcake
+            I love shortbread brownie cheesecake. Toffee danish tart soufflé pie
+            sugar plum. Lemon drops jelly-o apple pie gingerbread biscuit candy
+            cupcake. Chupa chups I love jelly beans cheesecake apple pie lemon
+            drops ice cream.
+          </Typography>
+        </Box>
+      </section>
+      <section id="aboutme">
+        <Box height="100vh" display="flex">
+          <Typography variant="h1" align="center" margin={10}>
+            About Me
+          </Typography>
+          <Typography variant="h5" align="center" margin={10}>
+            Cupcake ipsum dolor sit amet. Wafer apple pie cake halvah tiramisu.
+            Marzipan marshmallow pie muffin sweet roll fruitcake donut. I love
+            carrot cake ice cream apple pie I love lollipop jelly beans
+            tiramisu. Pudding soufflé cookie halvah tootsie roll I love.
+            Tiramisu cookie danish I love I love I love pie. I love cake candy
+            pastry I love jelly beans. Marshmallow jelly brownie candy canes
+            marshmallow icing. <br></br>
+            Soufflé biscuit sweet roll oat cake jelly-o. Cheesecake tootsie roll
+            jelly shortbread I love wafer. Pie gingerbread halvah sweet roll
+            croissant chupa chups tiramisu. Sugar plum tiramisu soufflé
+            fruitcake topping pie I love candy canes cheesecake. I love tootsie
+            roll sesame snaps I love liquorice cake. Caramels bonbon tootsie
+            roll caramels bonbon. I love jelly muffin pie candy biscuit. Gummi
+            bears carrot cake cheesecake dragée pastry halvah I love. Dessert
+            pastry powder sweet topping. Wafer donut carrot cake brownie dessert
+            sugar plum gummies macaroon. <br></br>
+            Chocolate bar pie I love liquorice jelly beans toffee. Powder jelly
+            gingerbread brownie biscuit cake. Cake sweet roll caramels fruitcake
+            I love shortbread brownie cheesecake. Toffee danish tart soufflé pie
+            sugar plum. Lemon drops jelly-o apple pie gingerbread biscuit candy
+            cupcake. Chupa chups I love jelly beans cheesecake apple pie lemon
+            drops ice cream.
+          </Typography>
+        </Box>
+      </section>
+      <section id="projects">
+        <Box height="100vh" display="flex">
+          <Typography variant="h1" align="center" margin={10}>
+            Projects
+          </Typography>
+          <Typography variant="h5" align="center" margin={10}>
+            Cupcake ipsum dolor sit amet. Wafer apple pie cake halvah tiramisu.
+            Marzipan marshmallow pie muffin sweet roll fruitcake donut. I love
+            carrot cake ice cream apple pie I love lollipop jelly beans
+            tiramisu. Pudding soufflé cookie halvah tootsie roll I love.
+            Tiramisu cookie danish I love I love I love pie. I love cake candy
+            pastry I love jelly beans. Marshmallow jelly brownie candy canes
+            marshmallow icing. <br></br>
+            Soufflé biscuit sweet roll oat cake jelly-o. Cheesecake tootsie roll
+            jelly shortbread I love wafer. Pie gingerbread halvah sweet roll
+            croissant chupa chups tiramisu. Sugar plum tiramisu soufflé
+            fruitcake topping pie I love candy canes cheesecake. I love tootsie
+            roll sesame snaps I love liquorice cake. Caramels bonbon tootsie
+            roll caramels bonbon. I love jelly muffin pie candy biscuit. Gummi
+            bears carrot cake cheesecake dragée pastry halvah I love. Dessert
+            pastry powder sweet topping. Wafer donut carrot cake brownie dessert
+            sugar plum gummies macaroon. <br></br>
+            Chocolate bar pie I love liquorice jelly beans toffee. Powder jelly
+            gingerbread brownie biscuit cake. Cake sweet roll caramels fruitcake
+            I love shortbread brownie cheesecake. Toffee danish tart soufflé pie
+            sugar plum. Lemon drops jelly-o apple pie gingerbread biscuit candy
+            cupcake. Chupa chups I love jelly beans cheesecake apple pie lemon
+            drops ice cream.
+          </Typography>
+        </Box>
+      </section>
     </>
-
-    //
-    // <div>
-    //   <HashLink smooth to="/#aboutme">
-    //     About Me
-    //   </HashLink>
-    //   <section id="aboutme">
-    //     <Typography variant="h1" align="center" margin={10}>
-    //       Hi, my name is Shoshana Levitt.
-    //     </Typography>
-    //     <Typography variant="h4" align="center" margin={10}>
-    //       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-    //       eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-    //       minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-    //       aliquip ex ea commodo consequat. Duis aute irure dolor in
-    //       reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-    //       pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-    //       culpa qui officia deserunt mollit anim id est laborum.
-    //     </Typography>
-    //   </section>
-    // </div>
   );
 };
 
