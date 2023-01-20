@@ -3,7 +3,7 @@ import { useInView } from "react-intersection-observer";
 import { Typography, Box } from "@mui/material";
 import { motion, useAnimation } from "framer-motion";
 
-const Intro = () => {
+const Projects = () => {
   const boxVariant = {
     visible: {
       opacity: 1,
@@ -24,7 +24,7 @@ const Intro = () => {
   }, [control, inView]);
   return (
     <>
-      <section id="intro">
+      <section id="projects">
         <motion.div
           ref={ref}
           variants={boxVariant}
@@ -33,10 +33,10 @@ const Intro = () => {
         >
           <Box height="100vh" width="100vw" display="flex">
             <Typography variant="h1" align="center" margin={10}>
-              Hi, I'm Shoshana.
+              Projects
             </Typography>
             <Typography variant="h5" align="center" margin={10}>
-              I'm a Full-Stack web developer.
+              XYZ
             </Typography>
           </Box>
         </motion.div>
@@ -45,4 +45,4 @@ const Intro = () => {
   );
 };
 
-export default Intro;
+export default Projects;
