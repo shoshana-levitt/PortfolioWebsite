@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
-import { Typography, Box } from "@mui/material";
+import { Typography, Box, Grid } from "@mui/material";
 import { motion, useAnimation } from "framer-motion";
 
 const Projects = () => {
@@ -32,12 +32,19 @@ const Projects = () => {
           animate={control}
         >
           <Box height="100vh" width="100vw" display="flex">
-            <Typography variant="h1" align="center" margin={10}>
-              Projects
-            </Typography>
-            <Typography variant="h5" align="center" margin={10}>
-              XYZ
-            </Typography>
+            <Grid
+              container
+              direction="column"
+              justifyContent="center"
+              alignItems="center"
+            >
+              <Typography variant="h1" align="center" margin={10}>
+                Projects
+              </Typography>
+              <Typography variant="h5" align="center" margin={10}>
+                XYZ
+              </Typography>
+            </Grid>
           </Box>
         </motion.div>
       </section>
