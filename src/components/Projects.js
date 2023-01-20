@@ -10,7 +10,9 @@ import {
   CardActions,
   CardContent,
   CardMedia,
+  IconButton,
 } from "@mui/material";
+import { GitHub, Launch } from "@mui/icons-material";
 import { motion, useAnimation } from "framer-motion";
 
 const Projects = () => {
@@ -72,9 +74,24 @@ const Projects = () => {
                         roll fruitcake donut.
                       </Typography>
                     </CardContent>
-                    {/* <CardActions>
-                  <Button size="small">Share</Button>
-                </CardActions> */}
+                    <CardActions>
+                      <IconButton
+                        href="https://github.com/shoshana-levitt"
+                        target="_blank"
+                        disableRipple
+                        sx={{ m: 1, ":hover": { color: "#5499C7" } }}
+                      >
+                        <GitHub></GitHub>
+                      </IconButton>
+                      <IconButton
+                        href="https://github.com/shoshana-levitt"
+                        target="_blank"
+                        disableRipple
+                        sx={{ m: 1, ":hover": { color: "#5499C7" } }}
+                      >
+                        <Launch></Launch>
+                      </IconButton>
+                    </CardActions>
                   </Card>
                 </motion.div>
                 <motion.div
@@ -97,6 +114,24 @@ const Projects = () => {
                         roll fruitcake donut.
                       </Typography>
                     </CardContent>
+                    <CardActions>
+                      <IconButton
+                        href="https://github.com/shoshana-levitt"
+                        target="_blank"
+                        disableRipple
+                        sx={{ m: 1, ":hover": { color: "#5499C7" } }}
+                      >
+                        <GitHub></GitHub>
+                      </IconButton>
+                      <IconButton
+                        href="https://github.com/shoshana-levitt"
+                        target="_blank"
+                        disableRipple
+                        sx={{ m: 1, ":hover": { color: "#5499C7" } }}
+                      >
+                        <Launch></Launch>
+                      </IconButton>
+                    </CardActions>
                   </Card>
                 </motion.div>
                 <motion.div
@@ -119,6 +154,24 @@ const Projects = () => {
                         roll fruitcake donut.
                       </Typography>
                     </CardContent>
+                    <CardActions>
+                      <IconButton
+                        href="https://github.com/shoshana-levitt"
+                        target="_blank"
+                        disableRipple
+                        sx={{ m: 1, ":hover": { color: "#5499C7" } }}
+                      >
+                        <GitHub></GitHub>
+                      </IconButton>
+                      <IconButton
+                        href="https://github.com/shoshana-levitt"
+                        target="_blank"
+                        disableRipple
+                        sx={{ m: 1, ":hover": { color: "#5499C7" } }}
+                      >
+                        <Launch></Launch>
+                      </IconButton>
+                    </CardActions>
                   </Card>
                 </motion.div>
               </Stack>
