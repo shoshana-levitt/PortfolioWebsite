@@ -42,22 +42,9 @@ const AboutMe = () => {
                 About Me
               </Typography>
               <Typography variant="h5" align="center" margin={10}>
-                Cupcake ipsum dolor sit amet. Wafer apple pie cake halvah
-                tiramisu. Marzipan marshmallow pie muffin sweet roll fruitcake
-                donut. I love carrot cake ice cream apple pie I love lollipop
-                jelly beans tiramisu. Pudding soufflé cookie halvah tootsie roll
-                I love. Tiramisu cookie danish I love I love I love pie. I love
-                cake candy pastry I love jelly beans. Marshmallow jelly brownie
-                candy canes marshmallow icing. <br></br>
-                Soufflé biscuit sweet roll oat cake jelly-o. Cheesecake tootsie
-                roll jelly shortbread I love wafer. Pie gingerbread halvah sweet
-                roll croissant chupa chups tiramisu. Sugar plum tiramisu soufflé
-                fruitcake topping pie I love candy canes cheesecake. I love
-                tootsie roll sesame snaps I love liquorice cake. Caramels bonbon
-                tootsie roll caramels bonbon. I love jelly muffin pie candy
-                biscuit. Gummi bears carrot cake cheesecake dragée pastry halvah
-                I love. Dessert pastry powder sweet topping. Wafer donut carrot
-                cake brownie dessert sugar plum gummies macaroon.
+                Hello! I’m Shoshana Levitt, a full-stack software engineer based
+                in New York City. I specialize in front-end development and am
+                passionate about creating clean and intuitive user interfaces.
               </Typography>
             </Grid>
           </Box>

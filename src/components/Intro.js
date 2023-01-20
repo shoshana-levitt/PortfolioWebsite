@@ -42,7 +42,7 @@ const Intro = () => {
                 Hi, I'm Shoshana.
               </Typography>
               <Typography variant="h5" align="center" margin={10}>
-                I'm a Full-Stack web developer.
+                I build things for the web.
               </Typography>
             </Grid>
           </Box>

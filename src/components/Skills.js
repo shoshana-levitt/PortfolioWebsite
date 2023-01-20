@@ -5,10 +5,11 @@ import {
   Box,
   Grid,
   Button,
+  ButtonGroup,
   IconButton,
   Stack,
+  Chip,
 } from "@mui/material";
-import { Javascript, Html, Css } from "@mui/icons-material";
 import { motion, useAnimation } from "framer-motion";
 
 const Skills = () => {
@@ -59,27 +60,20 @@ const Skills = () => {
                 candy canes marshmallow icing.
               </Typography>
               <Stack direction="row" spacing={2}>
-                <IconButton
-                  href="/"
-                  disableRipple
-                  sx={{ ":hover": { color: "#5499C7" } }}
-                >
-                  <Javascript sx={{ fontSize: 50 }}></Javascript>
-                </IconButton>
-                <IconButton
-                  href="/"
-                  disableRipple
-                  sx={{ ":hover": { color: "#5499C7" } }}
-                >
-                  <Html sx={{ fontSize: 50 }}></Html>
-                </IconButton>
-                <IconButton
-                  href="/"
-                  disableRipple
-                  sx={{ ":hover": { color: "#5499C7" } }}
-                >
-                  <Css sx={{ fontSize: 50 }}></Css>
-                </IconButton>
+                <Chip
+                  label="JavaScript"
+                  variant="contained"
+                  style={{ backgroundColor: "grey" }}
+                />
+                <Chip label="HTML" variant="outlined" />
+                <Chip label="CSS" variant="outlined" />
+                <Chip label="Node.js" variant="outlined" />
+                <Chip label="React" variant="outlined" />
+                <Chip label="Redux" variant="outlined" />
+                <Chip label="Sequelize" variant="outlined" />
+                <Chip label="Express" variant="outlined" />
+                <Chip label="PostgreSQL" variant="outlined" />
+                <Chip label="Material UI" variant="outlined" />
               </Stack>
             </Grid>
           </Box>

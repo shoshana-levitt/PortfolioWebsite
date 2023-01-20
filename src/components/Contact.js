@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
-import { Typography, Box, Grid } from "@mui/material";
+import { Typography, Box, Grid, Button } from "@mui/material";
+import { Mail } from "@mui/icons-material";
 import { motion, useAnimation } from "framer-motion";
 
 const Contact = () => {
@@ -39,11 +40,27 @@ const Contact = () => {
               alignItems="center"
             >
               <Typography variant="h1" align="center" margin={10}>
-                Contact
+                Let's Connect!
               </Typography>
               <Typography variant="h5" align="center" margin={10}>
-                XYZ
+                Looking for someone to collaborate with, or just want to chat?
               </Typography>
+              <Button
+                startIcon={<Mail />}
+                href="mailto:shoshana.levitt@gmail.com"
+                color="secondary"
+                variant="outlined"
+                disableRipple
+                sx={{
+                  m: 1,
+                  ":hover": {
+                    backgroundColor: "transparent",
+                    color: "#5499C7",
+                  },
+                }}
+              >
+                Email Me
+              </Button>
             </Grid>
           </Box>
         </motion.div>
