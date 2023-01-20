@@ -39,7 +39,7 @@ const Contact = () => {
               justifyContent="center"
               alignItems="center"
             >
-              <Typography variant="h1" align="center" margin={10}>
+              <Typography variant="h2" align="center" margin={10}>
                 Let's Connect!
               </Typography>
               <Typography variant="h5" align="center" margin={10}>

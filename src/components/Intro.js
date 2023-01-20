@@ -38,7 +38,7 @@ const Intro = () => {
               justifyContent="center"
               alignItems="center"
             >
-              <Typography variant="h1" align="center" margin={10}>
+              <Typography variant="h2" align="center" margin={10}>
                 Hi, I'm Shoshana.
               </Typography>
               <Typography variant="h5" align="center" margin={10}>

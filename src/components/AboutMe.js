@@ -38,13 +38,14 @@ const AboutMe = () => {
               justifyContent="center"
               alignItems="center"
             >
-              <Typography variant="h1" align="center" margin={10}>
+              <Typography variant="h2" align="center" margin={10}>
                 About Me
               </Typography>
               <Typography variant="h5" align="center" margin={10}>
                 Hello! I’m Shoshana Levitt, a full-stack software engineer based
-                in New York City. I specialize in front-end development and am
-                passionate about creating clean and intuitive user interfaces.
+                in New York City. I specialize in front-end development and
+                creating clean and intuitive interfaces. I'm passionate about
+                delivering exceptional user experiences.
               </Typography>
             </Grid>
           </Box>

@@ -50,7 +50,7 @@ const Projects = () => {
               justifyContent="center"
               alignItems="center"
             >
-              <Typography variant="h1" align="center" margin={10}>
+              <Typography variant="h2" align="center" margin={10}>
                 Projects
               </Typography>
               <Stack direction="row" spacing={5}>

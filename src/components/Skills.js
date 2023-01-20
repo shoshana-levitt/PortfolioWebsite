@@ -47,25 +47,19 @@ const Skills = () => {
               justifyContent="center"
               alignItems="center"
             >
-              <Typography variant="h1" align="center" margin={10}>
+              <Typography variant="h2" align="center" margin={10}>
                 Skills
               </Typography>
               <Typography variant="h5" align="center" margin={10}>
-                Cupcake ipsum dolor sit amet. Wafer apple pie cake halvah
-                tiramisu. Marzipan marshmallow pie muffin sweet roll fruitcake
-                donut. I love carrot cake ice cream apple pie I love lollipop
-                jelly beans tiramisu. Pudding soufflé cookie halvah tootsie roll
-                I love. Tiramisu cookie danish I love I love I love pie. I love
-                cake candy pastry I love jelly beans. Marshmallow jelly brownie
-                candy canes marshmallow icing.
+                I have experience developing apps using the PERN stack.
               </Typography>
               <Stack direction="row" spacing={2}>
                 <Chip label="Javascript" variant="outlined" />
                 <Chip label="HTML" variant="outlined" />
                 <Chip label="CSS" variant="outlined" />
-                <Chip label="Node.js" variant="outlined" />
                 <Chip label="React" variant="outlined" />
                 <Chip label="Redux" variant="outlined" />
+                <Chip label="Node.js" variant="outlined" />
                 <Chip label="Sequelize" variant="outlined" />
                 <Chip label="Express" variant="outlined" />
                 <Chip label="PostgreSQL" variant="outlined" />
