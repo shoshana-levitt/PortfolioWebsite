@@ -48,8 +48,8 @@ const Contact = () => {
               <Button
                 startIcon={<Mail />}
                 href="mailto:shoshana.levitt@gmail.com"
-                color="secondary"
-                variant="outlined"
+                color="grey"
+                variant="contained"
                 disableRipple
                 sx={{
                   m: 1,

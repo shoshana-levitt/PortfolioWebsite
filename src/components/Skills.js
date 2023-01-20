@@ -60,11 +60,7 @@ const Skills = () => {
                 candy canes marshmallow icing.
               </Typography>
               <Stack direction="row" spacing={2}>
-                <Chip
-                  label="JavaScript"
-                  variant="contained"
-                  style={{ backgroundColor: "grey" }}
-                />
+                <Chip label="Javascript" variant="outlined" />
                 <Chip label="HTML" variant="outlined" />
                 <Chip label="CSS" variant="outlined" />
                 <Chip label="Node.js" variant="outlined" />
