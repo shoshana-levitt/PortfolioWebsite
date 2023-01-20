@@ -1,6 +1,14 @@
 import React, { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
-import { Typography, Box, Grid } from "@mui/material";
+import {
+  Typography,
+  Box,
+  Grid,
+  Button,
+  IconButton,
+  Stack,
+} from "@mui/material";
+import { Javascript, Html, Css } from "@mui/icons-material";
 import { motion, useAnimation } from "framer-motion";
 
 const Skills = () => {
@@ -42,8 +50,37 @@ const Skills = () => {
                 Skills
               </Typography>
               <Typography variant="h5" align="center" margin={10}>
-                XYZ
+                Cupcake ipsum dolor sit amet. Wafer apple pie cake halvah
+                tiramisu. Marzipan marshmallow pie muffin sweet roll fruitcake
+                donut. I love carrot cake ice cream apple pie I love lollipop
+                jelly beans tiramisu. Pudding soufflé cookie halvah tootsie roll
+                I love. Tiramisu cookie danish I love I love I love pie. I love
+                cake candy pastry I love jelly beans. Marshmallow jelly brownie
+                candy canes marshmallow icing.
               </Typography>
+              <Stack direction="row" spacing={2}>
+                <IconButton
+                  href="/"
+                  disableRipple
+                  sx={{ ":hover": { color: "#5499C7" } }}
+                >
+                  <Javascript sx={{ fontSize: 50 }}></Javascript>
+                </IconButton>
+                <IconButton
+                  href="/"
+                  disableRipple
+                  sx={{ ":hover": { color: "#5499C7" } }}
+                >
+                  <Html sx={{ fontSize: 50 }}></Html>
+                </IconButton>
+                <IconButton
+                  href="/"
+                  disableRipple
+                  sx={{ ":hover": { color: "#5499C7" } }}
+                >
+                  <Css sx={{ fontSize: 50 }}></Css>
+                </IconButton>
+              </Stack>
             </Grid>
           </Box>
         </motion.div>

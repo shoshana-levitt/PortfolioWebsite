@@ -16,7 +16,7 @@ const Main = () => {
               <IconButton
                 href="/"
                 disableRipple
-                sx={{ ":hover": { color: "blue" } }}
+                sx={{ ":hover": { color: "#5499C7" } }}
               >
                 <Home></Home>
               </IconButton>
@@ -29,7 +29,10 @@ const Main = () => {
                 disableRipple
                 sx={{
                   m: 1,
-                  ":hover": { backgroundColor: "transparent", color: "blue" },
+                  ":hover": {
+                    backgroundColor: "transparent",
+                    color: "#5499C7",
+                  },
                 }}
               >
                 Intro
@@ -43,7 +46,10 @@ const Main = () => {
                 disableRipple
                 sx={{
                   m: 1,
-                  ":hover": { backgroundColor: "transparent", color: "blue" },
+                  ":hover": {
+                    backgroundColor: "transparent",
+                    color: "#5499C7",
+                  },
                 }}
               >
                 About Me
@@ -57,7 +63,10 @@ const Main = () => {
                 disableRipple
                 sx={{
                   m: 1,
-                  ":hover": { backgroundColor: "transparent", color: "blue" },
+                  ":hover": {
+                    backgroundColor: "transparent",
+                    color: "#5499C7",
+                  },
                 }}
               >
                 Skills
@@ -71,7 +80,10 @@ const Main = () => {
                 disableRipple
                 sx={{
                   m: 1,
-                  ":hover": { backgroundColor: "transparent", color: "blue" },
+                  ":hover": {
+                    backgroundColor: "transparent",
+                    color: "#5499C7",
+                  },
                 }}
               >
                 Projects
@@ -85,7 +97,10 @@ const Main = () => {
                 disableRipple
                 sx={{
                   m: 1,
-                  ":hover": { backgroundColor: "transparent", color: "blue" },
+                  ":hover": {
+                    backgroundColor: "transparent",
+                    color: "#5499C7",
+                  },
                 }}
               >
                 Contact
@@ -96,7 +111,7 @@ const Main = () => {
                 href="https://www.linkedin.com/in/shoshanalevitt/"
                 target="_blank"
                 disableRipple
-                sx={{ m: 1, ":hover": { color: "blue" } }}
+                sx={{ m: 1, ":hover": { color: "#5499C7" } }}
               >
                 <LinkedIn></LinkedIn>
               </IconButton>
@@ -104,14 +119,14 @@ const Main = () => {
                 href="https://github.com/shoshana-levitt"
                 target="_blank"
                 disableRipple
-                sx={{ m: 1, ":hover": { color: "blue" } }}
+                sx={{ m: 1, ":hover": { color: "#5499C7" } }}
               >
                 <GitHub></GitHub>
               </IconButton>
               <IconButton
                 href="mailto:shoshana.levitt@gmail.com"
                 disableRipple
-                sx={{ m: 1, ":hover": { color: "blue" } }}
+                sx={{ m: 1, ":hover": { color: "#5499C7" } }}
               >
                 <Email></Email>
               </IconButton>
