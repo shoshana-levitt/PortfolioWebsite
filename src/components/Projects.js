@@ -52,60 +52,75 @@ const Projects = () => {
                 Projects
               </Typography>
               <Stack direction="row" spacing={5}>
-                <Card sx={{ width: 375 }}>
-                  <CardMedia
-                    sx={{ height: 140 }}
-                    component="img"
-                    image="https://picsum.photos/400/300"
-                  />
-                  <CardContent>
-                    <Typography gutterBottom variant="h5" component="div">
-                      Project #1
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                      Cupcake ipsum dolor sit amet. Wafer apple pie cake halvah
-                      tiramisu. Marzipan marshmallow pie muffin sweet roll
-                      fruitcake donut.
-                    </Typography>
-                  </CardContent>
-                  {/* <CardActions>
+                <motion.div
+                  whileHover={{ scale: 1.05 }}
+                  transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                >
+                  <Card sx={{ width: 375 }}>
+                    <CardMedia
+                      sx={{ height: 140 }}
+                      component="img"
+                      image="https://picsum.photos/400/300"
+                    />
+                    <CardContent>
+                      <Typography gutterBottom variant="h5" component="div">
+                        Project #1
+                      </Typography>
+                      <Typography variant="body2" color="text.secondary">
+                        Cupcake ipsum dolor sit amet. Wafer apple pie cake
+                        halvah tiramisu. Marzipan marshmallow pie muffin sweet
+                        roll fruitcake donut.
+                      </Typography>
+                    </CardContent>
+                    {/* <CardActions>
                   <Button size="small">Share</Button>
                 </CardActions> */}
-                </Card>
-                <Card sx={{ width: 375 }}>
-                  <CardMedia
-                    sx={{ height: 140 }}
-                    component="img"
-                    image="https://picsum.photos/400/300"
-                  />
-                  <CardContent>
-                    <Typography gutterBottom variant="h5" component="div">
-                      Project #2
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                      Cupcake ipsum dolor sit amet. Wafer apple pie cake halvah
-                      tiramisu. Marzipan marshmallow pie muffin sweet roll
-                      fruitcake donut.
-                    </Typography>
-                  </CardContent>
-                </Card>
-                <Card sx={{ width: 375 }}>
-                  <CardMedia
-                    sx={{ height: 140 }}
-                    component="img"
-                    image="https://picsum.photos/400/300"
-                  />
-                  <CardContent>
-                    <Typography gutterBottom variant="h5" component="div">
-                      Project #3
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                      Cupcake ipsum dolor sit amet. Wafer apple pie cake halvah
-                      tiramisu. Marzipan marshmallow pie muffin sweet roll
-                      fruitcake donut.
-                    </Typography>
-                  </CardContent>
-                </Card>
+                  </Card>
+                </motion.div>
+                <motion.div
+                  whileHover={{ scale: 1.05 }}
+                  transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                >
+                  <Card sx={{ width: 375 }}>
+                    <CardMedia
+                      sx={{ height: 140 }}
+                      component="img"
+                      image="https://picsum.photos/400/300"
+                    />
+                    <CardContent>
+                      <Typography gutterBottom variant="h5" component="div">
+                        Project #2
+                      </Typography>
+                      <Typography variant="body2" color="text.secondary">
+                        Cupcake ipsum dolor sit amet. Wafer apple pie cake
+                        halvah tiramisu. Marzipan marshmallow pie muffin sweet
+                        roll fruitcake donut.
+                      </Typography>
+                    </CardContent>
+                  </Card>
+                </motion.div>
+                <motion.div
+                  whileHover={{ scale: 1.05 }}
+                  transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                >
+                  <Card sx={{ width: 375 }}>
+                    <CardMedia
+                      sx={{ height: 140 }}
+                      component="img"
+                      image="https://picsum.photos/400/300"
+                    />
+                    <CardContent>
+                      <Typography gutterBottom variant="h5" component="div">
+                        Project #3
+                      </Typography>
+                      <Typography variant="body2" color="text.secondary">
+                        Cupcake ipsum dolor sit amet. Wafer apple pie cake
+                        halvah tiramisu. Marzipan marshmallow pie muffin sweet
+                        roll fruitcake donut.
+                      </Typography>
+                    </CardContent>
+                  </Card>
+                </motion.div>
               </Stack>
             </Grid>
           </Box>
