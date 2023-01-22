@@ -58,7 +58,10 @@ const Projects = () => {
                   whileHover={{ scale: 1.05 }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
                 >
-                  <Card sx={{ width: 375 }}>
+                  <Card
+                    sx={{ width: 375 }}
+                    style={{ backgroundColor: "#dfdfdf" }}
+                  >
                     <CardMedia
                       sx={{ height: 200 }}
                       component="img"
@@ -98,7 +101,10 @@ const Projects = () => {
                   whileHover={{ scale: 1.05 }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
                 >
-                  <Card sx={{ width: 375 }}>
+                  <Card
+                    sx={{ width: 375 }}
+                    style={{ backgroundColor: "#dfdfdf" }}
+                  >
                     <CardMedia
                       sx={{ height: 200 }}
                       component="img"
@@ -138,7 +144,10 @@ const Projects = () => {
                   whileHover={{ scale: 1.05 }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
                 >
-                  <Card sx={{ width: 375 }}>
+                  <Card
+                    sx={{ width: 375 }}
+                    style={{ backgroundColor: "#dfdfdf" }}
+                  >
                     <CardMedia
                       sx={{ height: 200 }}
                       component="img"

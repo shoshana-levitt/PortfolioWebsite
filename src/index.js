@@ -15,7 +15,7 @@ const root = createRoot(container);
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#CCCCCC",
+      main: "#dfdfdf",
     },
     secondary: {
       main: "#303030",

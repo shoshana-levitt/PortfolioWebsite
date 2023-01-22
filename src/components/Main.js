@@ -19,8 +19,9 @@ const Main = () => {
             <Box sx={{ display: "flex", justifyContent: "flex-start" }}>
               <IconButton
                 href="/"
+                color="primary"
                 disableRipple
-                sx={{ ":hover": { color: "#2085a0" } }}
+                sx={{ ":hover": { color: "#white" } }}
               >
                 <Home></Home>
               </IconButton>
@@ -28,15 +29,14 @@ const Main = () => {
                 component={HashLink}
                 smooth
                 to="#intro"
-                color="secondary"
+                color="primary"
                 variant="text"
                 disableRipple
                 sx={{
-                  // color: '#dfdfdf'
                   m: 1,
                   ":hover": {
                     backgroundColor: "transparent",
-                    color: "#2085a0",
+                    color: "white",
                   },
                 }}
               >
@@ -46,14 +46,14 @@ const Main = () => {
                 component={HashLink}
                 smooth
                 to="#aboutme"
-                color="secondary"
+                color="primary"
                 variant="text"
                 disableRipple
                 sx={{
                   m: 1,
                   ":hover": {
                     backgroundColor: "transparent",
-                    color: "#2085a0",
+                    color: "white",
                   },
                 }}
               >
@@ -63,14 +63,14 @@ const Main = () => {
                 component={HashLink}
                 smooth
                 to="#skills"
-                color="secondary"
+                color="primary"
                 variant="text"
                 disableRipple
                 sx={{
                   m: 1,
                   ":hover": {
                     backgroundColor: "transparent",
-                    color: "#2085a0",
+                    color: "white",
                   },
                 }}
               >
@@ -80,14 +80,14 @@ const Main = () => {
                 component={HashLink}
                 smooth
                 to="#projects"
-                color="secondary"
+                color="primary"
                 variant="text"
                 disableRipple
                 sx={{
                   m: 1,
                   ":hover": {
                     backgroundColor: "transparent",
-                    color: "#2085a0",
+                    color: "white",
                   },
                 }}
               >
@@ -97,14 +97,14 @@ const Main = () => {
                 component={HashLink}
                 smooth
                 to="#contact"
-                color="secondary"
+                color="primary"
                 variant="text"
                 disableRipple
                 sx={{
                   m: 1,
                   ":hover": {
                     backgroundColor: "transparent",
-                    color: "#2085a0",
+                    color: "white",
                   },
                 }}
               >
@@ -115,23 +115,26 @@ const Main = () => {
               <IconButton
                 href="https://www.linkedin.com/in/shoshanalevitt/"
                 target="_blank"
+                color="primary"
                 disableRipple
-                sx={{ m: 1, ":hover": { color: "#2085a0" } }}
+                sx={{ m: 1, ":hover": { color: "white" } }}
               >
                 <LinkedIn></LinkedIn>
               </IconButton>
               <IconButton
                 href="https://github.com/shoshana-levitt"
                 target="_blank"
+                color="primary"
                 disableRipple
-                sx={{ m: 1, ":hover": { color: "#2085a0" } }}
+                sx={{ m: 1, ":hover": { color: "white" } }}
               >
                 <GitHub></GitHub>
               </IconButton>
               <IconButton
                 href="mailto:shoshana.levitt@gmail.com"
+                color="primary"
                 disableRipple
-                sx={{ m: 1, ":hover": { color: "#2085a0" } }}
+                sx={{ m: 1, ":hover": { color: "white" } }}
               >
                 <Email></Email>
               </IconButton>

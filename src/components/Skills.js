@@ -54,18 +54,22 @@ const Skills = () => {
                 I have experience developing applications using the PERN stack.
               </Typography>
               <Stack direction="row" spacing={2}>
-                <Chip label="Javascript" variant="outlined" />
-                <Chip label="HTML" variant="outlined" />
-                <Chip label="CSS" variant="outlined" />
-                <Chip label="React" variant="outlined" />
-                <Chip label="Redux" variant="outlined" />
-                <Chip label="NodeJS" variant="outlined" />
-                <Chip label="PostgreSQL" variant="outlined" />
-                <Chip label="Sequelize" variant="outlined" />
-                <Chip label="Express" variant="outlined" />
-                <Chip label="Material UI" variant="outlined" />
-                <Chip label="Framer Motion" variant="outlined" />
-                <Chip label="Git" variant="outlined" />
+                <Chip label="Javascript" variant="outlined" color="primary" />
+                <Chip label="HTML" variant="outlined" color="primary" />
+                <Chip label="CSS" variant="outlined" color="primary" />
+                <Chip label="React" variant="outlined" color="primary" />
+                <Chip label="Redux" variant="outlined" color="primary" />
+                <Chip label="NodeJS" variant="outlined" color="primary" />
+                <Chip label="PostgreSQL" variant="outlined" color="primary" />
+                <Chip label="Sequelize" variant="outlined" color="primary" />
+                <Chip label="Express" variant="outlined" color="primary" />
+                <Chip label="Material UI" variant="outlined" color="primary" />
+                <Chip
+                  label="Framer Motion"
+                  variant="outlined"
+                  color="primary"
+                />
+                <Chip label="Git" variant="outlined" color="primary" />
               </Stack>
             </Grid>
           </Box>
