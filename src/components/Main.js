@@ -10,7 +10,11 @@ const Main = () => {
   return (
     <BrowserRouter>
       <div>
-        <AppBar position="fixed" sx={{ bgcolor: "#efefef" }}>
+        <AppBar
+          position="fixed"
+          sx={{ backdropFilter: "blur(20px)" }}
+          style={{ backgroundColor: "transparent", boxShadow: "none" }}
+        >
           <Toolbar sx={{ p: -1 }}>
             <Box sx={{ display: "flex", justifyContent: "flex-start" }}>
               <IconButton
@@ -28,6 +32,7 @@ const Main = () => {
                 variant="text"
                 disableRipple
                 sx={{
+                  // color: '#dfdfdf'
                   m: 1,
                   ":hover": {
                     backgroundColor: "transparent",
