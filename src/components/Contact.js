@@ -59,7 +59,7 @@ const Contact = () => {
                     m: 1,
                     ":hover": {
                       backgroundColor: "transparent",
-                      color: "#2085a0",
+                      color: "white",
                     },
                   }}
                 >

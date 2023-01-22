@@ -21,7 +21,7 @@ const Main = () => {
                 href="/"
                 color="primary"
                 disableRipple
-                sx={{ ":hover": { color: "#white" } }}
+                sx={{ ":hover": { color: "white" } }}
               >
                 <Home></Home>
               </IconButton>
