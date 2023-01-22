@@ -47,11 +47,11 @@ const Skills = () => {
               justifyContent="center"
               alignItems="center"
             >
-              <Typography variant="h2" align="center" margin={10}>
+              <Typography variant="h2" align="center" margin={3}>
                 Skills
               </Typography>
-              <Typography variant="h5" align="center" margin={10}>
-                I have experience developing apps using the PERN stack.
+              <Typography variant="h5" align="center" margin={3}>
+                I have experience developing applications using the PERN stack.
               </Typography>
               <Stack direction="row" spacing={2}>
                 <Chip label="Javascript" variant="outlined" />
@@ -59,11 +59,13 @@ const Skills = () => {
                 <Chip label="CSS" variant="outlined" />
                 <Chip label="React" variant="outlined" />
                 <Chip label="Redux" variant="outlined" />
-                <Chip label="Node.js" variant="outlined" />
+                <Chip label="NodeJS" variant="outlined" />
+                <Chip label="PostgreSQL" variant="outlined" />
                 <Chip label="Sequelize" variant="outlined" />
                 <Chip label="Express" variant="outlined" />
-                <Chip label="PostgreSQL" variant="outlined" />
                 <Chip label="Material UI" variant="outlined" />
+                <Chip label="Framer Motion" variant="outlined" />
+                <Chip label="Git" variant="outlined" />
               </Stack>
             </Grid>
           </Box>

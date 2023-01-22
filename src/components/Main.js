@@ -10,13 +10,13 @@ const Main = () => {
   return (
     <BrowserRouter>
       <div>
-        <AppBar position="fixed">
+        <AppBar position="fixed" sx={{ bgcolor: "#efefef" }}>
           <Toolbar sx={{ p: -1 }}>
             <Box sx={{ display: "flex", justifyContent: "flex-start" }}>
               <IconButton
                 href="/"
                 disableRipple
-                sx={{ ":hover": { color: "#5499C7" } }}
+                sx={{ ":hover": { color: "#2085a0" } }}
               >
                 <Home></Home>
               </IconButton>
@@ -31,7 +31,7 @@ const Main = () => {
                   m: 1,
                   ":hover": {
                     backgroundColor: "transparent",
-                    color: "#5499C7",
+                    color: "#2085a0",
                   },
                 }}
               >
@@ -48,7 +48,7 @@ const Main = () => {
                   m: 1,
                   ":hover": {
                     backgroundColor: "transparent",
-                    color: "#5499C7",
+                    color: "#2085a0",
                   },
                 }}
               >
@@ -65,7 +65,7 @@ const Main = () => {
                   m: 1,
                   ":hover": {
                     backgroundColor: "transparent",
-                    color: "#5499C7",
+                    color: "#2085a0",
                   },
                 }}
               >
@@ -82,7 +82,7 @@ const Main = () => {
                   m: 1,
                   ":hover": {
                     backgroundColor: "transparent",
-                    color: "#5499C7",
+                    color: "#2085a0",
                   },
                 }}
               >
@@ -99,7 +99,7 @@ const Main = () => {
                   m: 1,
                   ":hover": {
                     backgroundColor: "transparent",
-                    color: "#5499C7",
+                    color: "#2085a0",
                   },
                 }}
               >
@@ -111,7 +111,7 @@ const Main = () => {
                 href="https://www.linkedin.com/in/shoshanalevitt/"
                 target="_blank"
                 disableRipple
-                sx={{ m: 1, ":hover": { color: "#5499C7" } }}
+                sx={{ m: 1, ":hover": { color: "#2085a0" } }}
               >
                 <LinkedIn></LinkedIn>
               </IconButton>
@@ -119,14 +119,14 @@ const Main = () => {
                 href="https://github.com/shoshana-levitt"
                 target="_blank"
                 disableRipple
-                sx={{ m: 1, ":hover": { color: "#5499C7" } }}
+                sx={{ m: 1, ":hover": { color: "#2085a0" } }}
               >
                 <GitHub></GitHub>
               </IconButton>
               <IconButton
                 href="mailto:shoshana.levitt@gmail.com"
                 disableRipple
-                sx={{ m: 1, ":hover": { color: "#5499C7" } }}
+                sx={{ m: 1, ":hover": { color: "#2085a0" } }}
               >
                 <Email></Email>
               </IconButton>

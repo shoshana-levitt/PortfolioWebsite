@@ -50,7 +50,7 @@ const Projects = () => {
               justifyContent="center"
               alignItems="center"
             >
-              <Typography variant="h2" align="center" margin={10}>
+              <Typography variant="h2" align="center" margin={3}>
                 Projects
               </Typography>
               <Stack direction="row" spacing={5}>
@@ -60,7 +60,7 @@ const Projects = () => {
                 >
                   <Card sx={{ width: 375 }}>
                     <CardMedia
-                      sx={{ height: 140 }}
+                      sx={{ height: 200 }}
                       component="img"
                       image="https://picsum.photos/400/300"
                     />
@@ -79,7 +79,7 @@ const Projects = () => {
                         href="https://github.com/shoshana-levitt"
                         target="_blank"
                         disableRipple
-                        sx={{ m: 1, ":hover": { color: "#5499C7" } }}
+                        sx={{ m: 1, ":hover": { color: "#2085a0" } }}
                       >
                         <GitHub></GitHub>
                       </IconButton>
@@ -87,7 +87,7 @@ const Projects = () => {
                         href="https://github.com/shoshana-levitt"
                         target="_blank"
                         disableRipple
-                        sx={{ m: 1, ":hover": { color: "#5499C7" } }}
+                        sx={{ m: 1, ":hover": { color: "#2085a0" } }}
                       >
                         <Launch></Launch>
                       </IconButton>
@@ -100,7 +100,7 @@ const Projects = () => {
                 >
                   <Card sx={{ width: 375 }}>
                     <CardMedia
-                      sx={{ height: 140 }}
+                      sx={{ height: 200 }}
                       component="img"
                       image="https://picsum.photos/400/300"
                     />
@@ -119,7 +119,7 @@ const Projects = () => {
                         href="https://github.com/shoshana-levitt"
                         target="_blank"
                         disableRipple
-                        sx={{ m: 1, ":hover": { color: "#5499C7" } }}
+                        sx={{ m: 1, ":hover": { color: "#2085a0" } }}
                       >
                         <GitHub></GitHub>
                       </IconButton>
@@ -127,7 +127,7 @@ const Projects = () => {
                         href="https://github.com/shoshana-levitt"
                         target="_blank"
                         disableRipple
-                        sx={{ m: 1, ":hover": { color: "#5499C7" } }}
+                        sx={{ m: 1, ":hover": { color: "#2085a0" } }}
                       >
                         <Launch></Launch>
                       </IconButton>
@@ -140,7 +140,7 @@ const Projects = () => {
                 >
                   <Card sx={{ width: 375 }}>
                     <CardMedia
-                      sx={{ height: 140 }}
+                      sx={{ height: 200 }}
                       component="img"
                       image="https://picsum.photos/400/300"
                     />
@@ -159,7 +159,7 @@ const Projects = () => {
                         href="https://github.com/shoshana-levitt"
                         target="_blank"
                         disableRipple
-                        sx={{ m: 1, ":hover": { color: "#5499C7" } }}
+                        sx={{ m: 1, ":hover": { color: "#2085a0" } }}
                       >
                         <GitHub></GitHub>
                       </IconButton>
@@ -167,7 +167,7 @@ const Projects = () => {
                         href="https://github.com/shoshana-levitt"
                         target="_blank"
                         disableRipple
-                        sx={{ m: 1, ":hover": { color: "#5499C7" } }}
+                        sx={{ m: 1, ":hover": { color: "#2085a0" } }}
                       >
                         <Launch></Launch>
                       </IconButton>

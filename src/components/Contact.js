@@ -39,28 +39,33 @@ const Contact = () => {
               justifyContent="center"
               alignItems="center"
             >
-              <Typography variant="h2" align="center" margin={10}>
+              <Typography variant="h2" align="center" margin={3}>
                 Let's Connect!
               </Typography>
-              <Typography variant="h5" align="center" margin={10}>
+              <Typography variant="h5" align="center" margin={3}>
                 Looking for someone to collaborate with, or just want to chat?
               </Typography>
-              <Button
-                startIcon={<Mail />}
-                href="mailto:shoshana.levitt@gmail.com"
-                color="grey"
-                variant="contained"
-                disableRipple
-                sx={{
-                  m: 1,
-                  ":hover": {
-                    backgroundColor: "transparent",
-                    color: "#5499C7",
-                  },
-                }}
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                transition={{ type: "spring", stiffness: 400, damping: 10 }}
               >
-                Email Me
-              </Button>
+                <Button
+                  startIcon={<Mail />}
+                  href="mailto:shoshana.levitt@gmail.com"
+                  color="grey"
+                  variant="contained"
+                  disableRipple
+                  sx={{
+                    m: 1,
+                    ":hover": {
+                      backgroundColor: "transparent",
+                      color: "#2085a0",
+                    },
+                  }}
+                >
+                  Email Me
+                </Button>
+              </motion.div>
             </Grid>
           </Box>
         </motion.div>
