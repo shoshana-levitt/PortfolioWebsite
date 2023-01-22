@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
-import { Typography, Box, Grid } from "@mui/material";
+import { Typography, Box, Grid, Avatar, Stack } from "@mui/material";
 import { motion, useAnimation } from "framer-motion";
 
 const AboutMe = () => {
@@ -41,12 +41,26 @@ const AboutMe = () => {
               <Typography variant="h2" align="center" margin={3}>
                 About Me
               </Typography>
-              <Typography variant="h5" align="center" margin={3}>
-                Hello! I’m Shoshana Levitt, a full-stack software engineer based
-                in New York City. I specialize in front-end development and
-                creating clean, intuitive interfaces. I'm passionate about
-                delivering exceptional user experiences.
-              </Typography>
+              <Stack
+                direction="row"
+                justifyContent="center"
+                alignItems="center"
+                spacing={5}
+                margin={10}
+              >
+                <Avatar
+                  alt="Shoshana Levitt"
+                  // src="../media/headshot.jpg"
+                  src="https://picsum.photos/id/2/400"
+                  sx={{ width: 300, height: 300 }}
+                />
+                <Typography variant="h5" align="center" margin={3}>
+                  Hello! I’m Shoshana, a full-stack software engineer based in
+                  New York City. I specialize in front-end development and
+                  creating clean, intuitive interfaces. I'm passionate about
+                  delivering exceptional user experiences.
+                </Typography>
+              </Stack>
             </Grid>
           </Box>
         </motion.div>

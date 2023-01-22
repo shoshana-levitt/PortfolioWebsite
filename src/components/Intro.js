@@ -39,7 +39,7 @@ const Intro = () => {
               alignItems="center"
             >
               <Typography variant="h2" align="center" margin={3}>
-                Hi, I'm Shoshana.
+                Hi, I'm Shoshana Levitt.
               </Typography>
               <Typography variant="h5" align="center" margin={3}>
                 I build things for the web.
