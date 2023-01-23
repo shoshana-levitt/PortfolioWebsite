@@ -3,8 +3,21 @@ import { Link } from "react-scroll";
 import Homepage from "./Homepage";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
-import { Button, AppBar, Toolbar, IconButton, Box } from "@mui/material";
-import { Home, LinkedIn, GitHub, Email } from "@mui/icons-material";
+import {
+  Button,
+  AppBar,
+  Toolbar,
+  IconButton,
+  Box,
+  Typography,
+} from "@mui/material";
+import {
+  Home,
+  LinkedIn,
+  GitHub,
+  Email,
+  Description,
+} from "@mui/icons-material";
 
 const Main = () => {
   return (
@@ -16,7 +29,7 @@ const Main = () => {
           style={{ backgroundColor: "transparent", boxShadow: "none" }}
         >
           <Toolbar sx={{ p: -1 }}>
-            <Box sx={{ display: "flex", justifyContent: "flex-start" }}>
+            <Box sx={{ display: "flex", flexGrow: 1 }}>
               <IconButton
                 href="/"
                 color="primary"
@@ -111,34 +124,47 @@ const Main = () => {
                 Contact
               </Button>
             </Box>
-            <Box sx={{ display: "flex", justifyContent: "flex-end" }}>
-              <IconButton
-                href="https://www.linkedin.com/in/shoshanalevitt/"
-                target="_blank"
-                color="primary"
-                disableRipple
-                sx={{ m: 1, ":hover": { color: "white" } }}
-              >
-                <LinkedIn></LinkedIn>
-              </IconButton>
-              <IconButton
-                href="https://github.com/shoshana-levitt"
-                target="_blank"
-                color="primary"
-                disableRipple
-                sx={{ m: 1, ":hover": { color: "white" } }}
-              >
-                <GitHub></GitHub>
-              </IconButton>
-              <IconButton
-                href="mailto:shoshana.levitt@gmail.com"
-                color="primary"
-                disableRipple
-                sx={{ m: 1, ":hover": { color: "white" } }}
-              >
-                <Email></Email>
-              </IconButton>
-            </Box>
+            <IconButton
+              href="https://github.com/shoshana-levitt"
+              target="_blank"
+              color="primary"
+              disableRipple
+              sx={{ m: 1, ":hover": { color: "white" } }}
+            >
+              <GitHub></GitHub>
+            </IconButton>
+            <IconButton
+              href="https://www.linkedin.com/in/shoshanalevitt/"
+              target="_blank"
+              color="primary"
+              disableRipple
+              sx={{ m: 1, ":hover": { color: "white" } }}
+            >
+              <LinkedIn></LinkedIn>
+            </IconButton>
+            <IconButton
+              href="mailto:shoshana.levitt@gmail.com"
+              color="primary"
+              disableRipple
+              sx={{ m: 1, ":hover": { color: "white" } }}
+            >
+              <Email></Email>
+            </IconButton>
+            <Button
+              startIcon={<Description />}
+              color="primary"
+              variant="outlined"
+              disableRipple
+              sx={{
+                m: 1,
+                ":hover": {
+                  backgroundColor: "transparent",
+                  color: "white",
+                },
+              }}
+            >
+              Download Resume
+            </Button>
           </Toolbar>
         </AppBar>
         <Toolbar></Toolbar>
