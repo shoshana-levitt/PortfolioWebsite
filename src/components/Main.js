@@ -152,6 +152,8 @@ const Main = () => {
             </IconButton>
             <Button
               startIcon={<Description />}
+              href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:29524ef3-2a08-3516-bbef-4b530bd4052c"
+              target="_blank"
               color="primary"
               variant="outlined"
               disableRipple
@@ -163,7 +165,7 @@ const Main = () => {
                 },
               }}
             >
-              Download Resume
+              Resume
             </Button>
           </Toolbar>
         </AppBar>

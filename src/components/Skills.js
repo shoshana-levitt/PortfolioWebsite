@@ -51,25 +51,40 @@ const Skills = () => {
                 Skills
               </Typography>
               <Typography variant="h5" align="center" margin={3}>
-                I have experience developing applications using the PERN stack.
+                I'm trained in Javascript and developing full-stack applications
+                using the PERN stack.<br></br>I'm always looking to build new
+                skills and expand my tech stack.
               </Typography>
-              <Stack direction="row" spacing={2}>
-                <Chip label="Javascript" variant="outlined" color="primary" />
-                <Chip label="HTML" variant="outlined" color="primary" />
-                <Chip label="CSS" variant="outlined" color="primary" />
-                <Chip label="React" variant="outlined" color="primary" />
-                <Chip label="Redux" variant="outlined" color="primary" />
-                <Chip label="NodeJS" variant="outlined" color="primary" />
-                <Chip label="PostgreSQL" variant="outlined" color="primary" />
-                <Chip label="Sequelize" variant="outlined" color="primary" />
-                <Chip label="Express" variant="outlined" color="primary" />
-                <Chip label="Material UI" variant="outlined" color="primary" />
-                <Chip
-                  label="Framer Motion"
-                  variant="outlined"
-                  color="primary"
-                />
-                <Chip label="VexFlow" variant="outlined" color="primary" />
+              <Stack
+                direction="column"
+                spacing={2}
+                align="center"
+                alignItems="center"
+              >
+                <Stack direction="row" spacing={2}>
+                  <Chip label="Javascript" variant="outlined" color="primary" />
+                  <Chip label="HTML" variant="outlined" color="primary" />
+                  <Chip label="CSS" variant="outlined" color="primary" />
+                  <Chip label="React" variant="outlined" color="primary" />
+                  <Chip label="Redux" variant="outlined" color="primary" />
+                  <Chip
+                    label="Material UI"
+                    variant="outlined"
+                    color="primary"
+                  />
+                  <Chip
+                    label="Framer Motion"
+                    variant="outlined"
+                    color="primary"
+                  />
+                  <Chip label="VexFlow" variant="outlined" color="primary" />
+                </Stack>
+                <Stack direction="row" spacing={2}>
+                  <Chip label="NodeJS" variant="outlined" color="primary" />
+                  <Chip label="PostgreSQL" variant="outlined" color="primary" />
+                  <Chip label="Sequelize" variant="outlined" color="primary" />
+                  <Chip label="Express" variant="outlined" color="primary" />
+                </Stack>
               </Stack>
             </Grid>
           </Box>
