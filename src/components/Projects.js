@@ -65,7 +65,7 @@ const Projects = () => {
                     <CardMedia
                       sx={{ height: 200 }}
                       component="img"
-                      image="https://picsum.photos/400/300"
+                      image="https://images.unsplash.com/photo-1552422535-c45813c61732?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                     />
                     <CardContent>
                       <Typography gutterBottom variant="h5" component="div">
@@ -110,16 +110,16 @@ const Projects = () => {
                     <CardMedia
                       sx={{ height: 200 }}
                       component="img"
-                      image="https://picsum.photos/400/300"
+                      image="https://images.unsplash.com/photo-1535909339361-ef56e179d637?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                     />
                     <CardContent>
                       <Typography gutterBottom variant="h5" component="div">
                         Grace Shopper
                       </Typography>
                       <Typography variant="body2" color="text.secondary">
-                        Cupcake ipsum dolor sit amet. Wafer apple pie cake
-                        halvah tiramisu. Marzipan marshmallow pie muffin sweet
-                        roll fruitcake donut.
+                        E-Commerce site where users can purchase puppy
+                        playdates! A persistent cart securely is maintained in
+                        the back-end database for logged-in users.
                       </Typography>
                     </CardContent>
                     <CardActions>

@@ -69,7 +69,7 @@ const Skills = () => {
                   variant="outlined"
                   color="primary"
                 />
-                <Chip label="Git" variant="outlined" color="primary" />
+                <Chip label="VexFlow" variant="outlined" color="primary" />
               </Stack>
             </Grid>
           </Box>

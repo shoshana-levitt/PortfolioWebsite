@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 import { Typography, Box, Grid, Avatar, Stack } from "@mui/material";
 import { motion, useAnimation } from "framer-motion";
+// import headshot from "../media/headshot.jpg";
 
 const AboutMe = () => {
   const boxVariant = {
@@ -50,8 +51,8 @@ const AboutMe = () => {
               >
                 <Avatar
                   alt="Shoshana Levitt"
-                  // src="../media/headshot.jpg"
-                  src="https://picsum.photos/id/2/400"
+                  // src={headshot}
+                  src="https://images.unsplash.com/photo-1577909659949-2302826adf26?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                   sx={{ width: 300, height: 300 }}
                 />
                 <Typography variant="h5" align="center" margin={3}>
