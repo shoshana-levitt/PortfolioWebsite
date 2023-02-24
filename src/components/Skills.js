@@ -51,7 +51,7 @@ const Skills = () => {
                 Skills
               </Typography>
               <Typography variant="h5" align="center" margin={3}>
-                I'm trained in Javascript and developing full-stack applications
+                I'm trained in JavaScript and developing full-stack applications
                 using the PERN stack.<br></br>I'm always looking to build new
                 skills and expand my tech stack.
               </Typography>
@@ -62,7 +62,7 @@ const Skills = () => {
                 alignItems="center"
               >
                 <Stack direction="row" spacing={2}>
-                  <Chip label="Javascript" variant="outlined" color="primary" />
+                  <Chip label="JavaScript" variant="outlined" color="primary" />
                   <Chip label="HTML" variant="outlined" color="primary" />
                   <Chip label="CSS" variant="outlined" color="primary" />
                   <Chip label="React" variant="outlined" color="primary" />
