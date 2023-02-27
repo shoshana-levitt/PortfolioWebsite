@@ -21,6 +21,9 @@ const theme = createTheme({
       main: "#303030",
     },
   },
+  typography: {
+    fontFamily: ["Roboto", "sans-serif"].join(","),
+  },
 });
 
 root.render(
