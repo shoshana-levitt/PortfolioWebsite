@@ -1,4 +1,4 @@
-# Shoshana Levitt's Portfolio Website
+# Shoshana Levitt's Portfolio Website 🎨
 
 http://shoshanalevitt.com/
 
