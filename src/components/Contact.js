@@ -62,6 +62,7 @@ const Contact = () => {
                       color: "white",
                     },
                   }}
+                  style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
                 >
                   Email Me
                 </Button>
