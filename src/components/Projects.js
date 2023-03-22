@@ -92,8 +92,18 @@ const Projects = () => {
                         color="primary"
                         sx={{ m: 1, ":hover": { color: "#cfcfcf" } }}
                       >
-                        <GitHub></GitHub>
+                        <motion.div
+                          whileHover={{ scale: 1.05 }}
+                          transition={{
+                            type: "spring",
+                            stiffness: 400,
+                            damping: 10,
+                          }}
+                        >
+                          <GitHub></GitHub>
+                        </motion.div>
                       </IconButton>
+
                       <IconButton
                         href="https://augmented.onrender.com/"
                         target="_blank"
