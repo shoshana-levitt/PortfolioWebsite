@@ -62,28 +62,80 @@ const Skills = () => {
                 alignItems="center"
               >
                 <Stack direction="row" spacing={2}>
-                  <Chip label="JavaScript" variant="outlined" color="primary" />
-                  <Chip label="HTML" variant="outlined" color="primary" />
-                  <Chip label="CSS" variant="outlined" color="primary" />
-                  <Chip label="React" variant="outlined" color="primary" />
-                  <Chip label="Redux" variant="outlined" color="primary" />
+                  <Chip
+                    label="JavaScript"
+                    variant="outlined"
+                    color="primary"
+                    style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
+                  />
+                  <Chip
+                    label="HTML"
+                    variant="outlined"
+                    color="primary"
+                    style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
+                  />
+                  <Chip
+                    label="CSS"
+                    variant="outlined"
+                    color="primary"
+                    style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
+                  />
+                  <Chip
+                    label="React"
+                    variant="outlined"
+                    color="primary"
+                    style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
+                  />
+                  <Chip
+                    label="Redux"
+                    variant="outlined"
+                    color="primary"
+                    style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
+                  />
                   <Chip
                     label="Material UI"
                     variant="outlined"
                     color="primary"
+                    style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
                   />
                   <Chip
                     label="Framer Motion"
                     variant="outlined"
                     color="primary"
+                    style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
                   />
-                  <Chip label="VexFlow" variant="outlined" color="primary" />
+                  <Chip
+                    label="VexFlow"
+                    variant="outlined"
+                    color="primary"
+                    style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
+                  />
                 </Stack>
                 <Stack direction="row" spacing={2}>
-                  <Chip label="NodeJS" variant="outlined" color="primary" />
-                  <Chip label="PostgreSQL" variant="outlined" color="primary" />
-                  <Chip label="Sequelize" variant="outlined" color="primary" />
-                  <Chip label="Express" variant="outlined" color="primary" />
+                  <Chip
+                    label="NodeJS"
+                    variant="outlined"
+                    color="primary"
+                    style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
+                  />
+                  <Chip
+                    label="PostgreSQL"
+                    variant="outlined"
+                    color="primary"
+                    style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
+                  />
+                  <Chip
+                    label="Sequelize"
+                    variant="outlined"
+                    color="primary"
+                    style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
+                  />
+                  <Chip
+                    label="Express"
+                    variant="outlined"
+                    color="primary"
+                    style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
+                  />
                 </Stack>
               </Stack>
             </Grid>
