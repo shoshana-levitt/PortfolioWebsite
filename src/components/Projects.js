@@ -74,7 +74,7 @@ const Projects = () => {
                         component="div"
                         color="primary"
                       >
-                        Portfolio Webite
+                        Portfolio Website
                       </Typography>
                       <Typography variant="body2" color="primary">
                         My portfolio website that you're currently interacting
