@@ -90,7 +90,7 @@ const Projects = () => {
                         target="_blank"
                         disableRipple
                         color="primary"
-                        sx={{ m: 1, ":hover": { color: "#2085a0" } }}
+                        sx={{ m: 1, ":hover": { color: "#cfcfcf" } }}
                       >
                         <GitHub></GitHub>
                       </IconButton>
@@ -99,7 +99,7 @@ const Projects = () => {
                         target="_blank"
                         disableRipple
                         color="primary"
-                        sx={{ m: 1, ":hover": { color: "#2085a0" } }}
+                        sx={{ m: 1, ":hover": { color: "#cfcfcf" } }}
                       >
                         <Launch></Launch>
                       </IconButton>
@@ -140,7 +140,7 @@ const Projects = () => {
                         target="_blank"
                         disableRipple
                         color="primary"
-                        sx={{ m: 1, ":hover": { color: "#2085a0" } }}
+                        sx={{ m: 1, ":hover": { color: "#cfcfcf" } }}
                       >
                         <GitHub></GitHub>
                       </IconButton>
@@ -149,7 +149,7 @@ const Projects = () => {
                         target="_blank"
                         disableRipple
                         color="primary"
-                        sx={{ m: 1, ":hover": { color: "#2085a0" } }}
+                        sx={{ m: 1, ":hover": { color: "#cfcfcf" } }}
                       >
                         <Launch></Launch>
                       </IconButton>
