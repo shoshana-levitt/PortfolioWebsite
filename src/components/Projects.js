@@ -60,7 +60,7 @@ const Projects = () => {
                 >
                   <Card
                     sx={{ width: 375 }}
-                    style={{ backgroundColor: "#dfdfdf" }}
+                    style={{ backgroundColor: "rgba(254, 253, 253, 0.3)" }}
                   >
                     <CardMedia
                       sx={{ height: 200 }}
@@ -105,7 +105,7 @@ const Projects = () => {
                 >
                   <Card
                     sx={{ width: 375 }}
-                    style={{ backgroundColor: "#dfdfdf" }}
+                    style={{ backgroundColor: "rgba(254, 253, 253, 0.3)" }}
                   >
                     <CardMedia
                       sx={{ height: 200 }}
