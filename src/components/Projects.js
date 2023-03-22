@@ -74,6 +74,56 @@ const Projects = () => {
                         component="div"
                         color="primary"
                       >
+                        Portfolio Webite
+                      </Typography>
+                      <Typography variant="body2" color="primary">
+                        My portfolio website that you're currently interacting
+                        with was made with React, Material UI, and Framer
+                        Motion.
+                      </Typography>
+                    </CardContent>
+                    <CardActions>
+                      <IconButton
+                        href="https://github.com/shoshana-levitt/PortfolioWebsite"
+                        target="_blank"
+                        disableRipple
+                        color="primary"
+                        sx={{ m: 1, ":hover": { color: "#cfcfcf" } }}
+                      >
+                        <motion.div
+                          whileHover={{ scale: 1.05 }}
+                          transition={{
+                            type: "spring",
+                            stiffness: 400,
+                            damping: 10,
+                          }}
+                        >
+                          <GitHub></GitHub>
+                        </motion.div>
+                      </IconButton>
+                    </CardActions>
+                  </Card>
+                </motion.div>
+                <motion.div
+                  whileHover={{ scale: 1.05 }}
+                  transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                >
+                  <Card
+                    sx={{ width: 375 }}
+                    style={{ backgroundColor: "rgba(254, 253, 253, 0.3)" }}
+                  >
+                    <CardMedia
+                      sx={{ height: 200 }}
+                      component="img"
+                      image="https://images.unsplash.com/photo-1552422535-c45813c61732?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                    />
+                    <CardContent>
+                      <Typography
+                        gutterBottom
+                        variant="h5"
+                        component="div"
+                        color="primary"
+                      >
                         augmentEd♫⁺
                       </Typography>
                       <Typography variant="body2" color="primary">
@@ -103,7 +153,6 @@ const Projects = () => {
                           <GitHub></GitHub>
                         </motion.div>
                       </IconButton>
-
                       <IconButton
                         href="https://augmented.onrender.com/"
                         target="_blank"
