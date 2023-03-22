@@ -62,80 +62,140 @@ const Skills = () => {
                 alignItems="center"
               >
                 <Stack direction="row" spacing={2}>
-                  <Chip
-                    label="JavaScript"
-                    variant="outlined"
-                    color="primary"
-                    style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
-                  />
-                  <Chip
-                    label="HTML"
-                    variant="outlined"
-                    color="primary"
-                    style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
-                  />
-                  <Chip
-                    label="CSS"
-                    variant="outlined"
-                    color="primary"
-                    style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
-                  />
-                  <Chip
-                    label="React"
-                    variant="outlined"
-                    color="primary"
-                    style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
-                  />
-                  <Chip
-                    label="Redux"
-                    variant="outlined"
-                    color="primary"
-                    style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
-                  />
-                  <Chip
-                    label="Material UI"
-                    variant="outlined"
-                    color="primary"
-                    style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
-                  />
-                  <Chip
-                    label="Framer Motion"
-                    variant="outlined"
-                    color="primary"
-                    style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
-                  />
-                  <Chip
-                    label="VexFlow"
-                    variant="outlined"
-                    color="primary"
-                    style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
-                  />
+                  <motion.div
+                    whileHover={{ scale: 1.1 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                  >
+                    <Chip
+                      label="JavaScript"
+                      variant="outlined"
+                      color="primary"
+                      style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
+                    />
+                  </motion.div>
+                  <motion.div
+                    whileHover={{ scale: 1.1 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                  >
+                    <Chip
+                      label="HTML"
+                      variant="outlined"
+                      color="primary"
+                      style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
+                    />
+                  </motion.div>
+                  <motion.div
+                    whileHover={{ scale: 1.1 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                  >
+                    <Chip
+                      label="CSS"
+                      variant="outlined"
+                      color="primary"
+                      style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
+                    />
+                  </motion.div>
+                  <motion.div
+                    whileHover={{ scale: 1.1 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                  >
+                    <Chip
+                      label="React"
+                      variant="outlined"
+                      color="primary"
+                      style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
+                    />
+                  </motion.div>
+                  <motion.div
+                    whileHover={{ scale: 1.1 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                  >
+                    <Chip
+                      label="Redux"
+                      variant="outlined"
+                      color="primary"
+                      style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
+                    />
+                  </motion.div>
+                  <motion.div
+                    whileHover={{ scale: 1.1 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                  >
+                    <Chip
+                      label="Material UI"
+                      variant="outlined"
+                      color="primary"
+                      style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
+                    />
+                  </motion.div>
+                  <motion.div
+                    whileHover={{ scale: 1.1 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                  >
+                    <Chip
+                      label="Framer Motion"
+                      variant="outlined"
+                      color="primary"
+                      style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
+                    />
+                  </motion.div>
+                  <motion.div
+                    whileHover={{ scale: 1.1 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                  >
+                    <Chip
+                      label="VexFlow"
+                      variant="outlined"
+                      color="primary"
+                      style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
+                    />
+                  </motion.div>
                 </Stack>
                 <Stack direction="row" spacing={2}>
-                  <Chip
-                    label="NodeJS"
-                    variant="outlined"
-                    color="primary"
-                    style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
-                  />
-                  <Chip
-                    label="PostgreSQL"
-                    variant="outlined"
-                    color="primary"
-                    style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
-                  />
-                  <Chip
-                    label="Sequelize"
-                    variant="outlined"
-                    color="primary"
-                    style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
-                  />
-                  <Chip
-                    label="Express"
-                    variant="outlined"
-                    color="primary"
-                    style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
-                  />
+                  <motion.div
+                    whileHover={{ scale: 1.1 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                  >
+                    <Chip
+                      label="NodeJS"
+                      variant="outlined"
+                      color="primary"
+                      style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
+                    />
+                  </motion.div>
+                  <motion.div
+                    whileHover={{ scale: 1.1 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                  >
+                    <Chip
+                      label="PostgreSQL"
+                      variant="outlined"
+                      color="primary"
+                      style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
+                    />
+                  </motion.div>
+                  <motion.div
+                    whileHover={{ scale: 1.1 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                  >
+                    <Chip
+                      label="Sequelize"
+                      variant="outlined"
+                      color="primary"
+                      style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
+                    />
+                  </motion.div>
+                  <motion.div
+                    whileHover={{ scale: 1.1 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                  >
+                    <Chip
+                      label="Express"
+                      variant="outlined"
+                      color="primary"
+                      style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
+                    />
+                  </motion.div>
                 </Stack>
               </Stack>
             </Grid>
