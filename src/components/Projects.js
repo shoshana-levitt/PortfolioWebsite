@@ -90,16 +90,7 @@ const Projects = () => {
                         color="primary"
                         sx={{ m: 1, ":hover": { color: "#cfcfcf" } }}
                       >
-                        <motion.div
-                          whileHover={{ scale: 1.05 }}
-                          transition={{
-                            type: "spring",
-                            stiffness: 400,
-                            damping: 10,
-                          }}
-                        >
-                          <GitHub></GitHub>
-                        </motion.div>
+                        <GitHub></GitHub>
                       </IconButton>
                     </CardActions>
                   </Card>
@@ -142,16 +133,7 @@ const Projects = () => {
                         color="primary"
                         sx={{ m: 1, ":hover": { color: "#cfcfcf" } }}
                       >
-                        <motion.div
-                          whileHover={{ scale: 1.05 }}
-                          transition={{
-                            type: "spring",
-                            stiffness: 400,
-                            damping: 10,
-                          }}
-                        >
-                          <GitHub></GitHub>
-                        </motion.div>
+                        <GitHub></GitHub>
                       </IconButton>
                       <IconButton
                         href="https://augmented.onrender.com/"
