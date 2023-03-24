@@ -3,6 +3,7 @@ import { useInView } from "react-intersection-observer";
 import { Typography, Box, Grid, Button } from "@mui/material";
 import { Mail } from "@mui/icons-material";
 import { motion, useAnimation } from "framer-motion";
+import { ContactForm } from "./ContactForm";
 
 const Contact = () => {
   const boxVariant = {
@@ -45,28 +46,7 @@ const Contact = () => {
               <Typography variant="h5" align="center" margin={3}>
                 Looking for someone to collaborate with, or just want to chat?
               </Typography>
-              <motion.div
-                whileHover={{ scale: 1.05 }}
-                transition={{ type: "spring", stiffness: 400, damping: 10 }}
-              >
-                <Button
-                  startIcon={<Mail />}
-                  href="mailto:shoshana.levitt@gmail.com"
-                  color="grey"
-                  variant="contained"
-                  disableRipple
-                  sx={{
-                    m: 1,
-                    ":hover": {
-                      backgroundColor: "transparent",
-                      color: "white",
-                    },
-                  }}
-                  style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
-                >
-                  Email Me
-                </Button>
-              </motion.div>
+              <ContactForm />
             </Grid>
           </Box>
         </motion.div>
