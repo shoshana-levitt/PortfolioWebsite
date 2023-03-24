@@ -38,9 +38,6 @@ const AboutMe = () => {
               justifyContent="center"
               alignItems="center"
             >
-              <Typography variant="h2" align="center" margin={3}>
-                About Me
-              </Typography>
               <Stack
                 direction="row"
                 justifyContent="center"
@@ -53,12 +50,23 @@ const AboutMe = () => {
                   src="/media/headshot.jpg"
                   sx={{ width: 300, height: 300 }}
                 />
-                <Typography variant="h5" align="center" margin={3}>
-                  Hello! I’m Shoshana, a full-stack software engineer based in
-                  New York City. I specialize in front-end development and
-                  creating clean, intuitive interfaces. I'm passionate about
-                  delivering exceptional user experiences.
-                </Typography>
+                <Stack
+                  direction="column"
+                  justifyContent="center"
+                  alignItems="center"
+                  spacing={5}
+                  margin={10}
+                >
+                  <Typography variant="h2" align="center" margin={3}>
+                    Hi, I'm Shoshana Levitt.
+                  </Typography>
+                  <Typography variant="h5" align="center" margin={3}>
+                    I’m Shoshana, a full-stack software engineer based in New
+                    York City. I specialize in front-end development and
+                    creating clean, intuitive interfaces. I'm passionate about
+                    delivering exceptional user experiences.
+                  </Typography>
+                </Stack>
               </Stack>
             </Grid>
           </Box>

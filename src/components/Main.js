@@ -41,23 +41,6 @@ const Main = () => {
               <Button
                 component={HashLink}
                 smooth
-                to="#intro"
-                color="primary"
-                variant="text"
-                disableRipple
-                sx={{
-                  m: 1,
-                  ":hover": {
-                    backgroundColor: "transparent",
-                    color: "white",
-                  },
-                }}
-              >
-                Intro
-              </Button>
-              <Button
-                component={HashLink}
-                smooth
                 to="#aboutme"
                 color="primary"
                 variant="text"
