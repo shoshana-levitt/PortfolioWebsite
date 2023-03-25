@@ -31,6 +31,18 @@ const Skills = () => {
       control.start("hidden");
     }
   }, [control, inView]);
+
+  const frontEndSkills = [
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "React",
+    "Redux",
+    "MaterialUI",
+    "Framer Motion",
+    "VexFlow",
+  ];
+
   return (
     <>
       <section id="skills">
@@ -62,7 +74,24 @@ const Skills = () => {
                 alignItems="center"
               >
                 <Stack direction="row" spacing={2}>
-                  <motion.div
+                  {frontEndSkills.map((skill) => (
+                    <motion.div
+                      whileHover={{ scale: 1.1 }}
+                      transition={{
+                        type: "spring",
+                        stiffness: 400,
+                        damping: 10,
+                      }}
+                    >
+                      <Chip
+                        label={skill}
+                        variant="outlined"
+                        color="primary"
+                        style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
+                      />
+                    </motion.div>
+                  ))}
+                  {/* <motion.div
                     whileHover={{ scale: 1.1 }}
                     transition={{ type: "spring", stiffness: 400, damping: 10 }}
                   >
@@ -149,7 +178,7 @@ const Skills = () => {
                       color="primary"
                       style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
                     />
-                  </motion.div>
+                  </motion.div> */}
                 </Stack>
                 <Stack direction="row" spacing={2}>
                   <motion.div
