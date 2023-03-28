@@ -78,6 +78,7 @@ const Skills = () => {
                 <Stack direction="row" spacing={2}>
                   {frontEndSkills.map((skill) => (
                     <motion.div
+                      key={skill.name}
                       whileHover={{ scale: 1.1 }}
                       transition={{
                         type: "spring",
@@ -97,6 +98,7 @@ const Skills = () => {
                 <Stack direction="row" spacing={2}>
                   {backEndSkills.map((skill) => (
                     <motion.div
+                      key={skill.name}
                       whileHover={{ scale: 1.1 }}
                       transition={{
                         type: "spring",
