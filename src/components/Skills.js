@@ -38,7 +38,7 @@ const Skills = () => {
     "CSS",
     "React",
     "Redux",
-    "MaterialUI",
+    "Material UI",
     "Framer Motion",
     "VexFlow",
   ];
