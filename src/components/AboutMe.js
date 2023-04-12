@@ -64,7 +64,16 @@ const AboutMe = () => {
                     I’m Shoshana, a full-stack software engineer based in New
                     York City. I specialize in front-end development and
                     creating clean, intuitive interfaces. I'm passionate about
-                    delivering exceptional user experiences.
+                    delivering exceptional user experiences. <br></br>
+                  </Typography>
+                  <Typography
+                    variant="h6"
+                    align="center"
+                    margin={3}
+                    sx={{ fontStyle: "italic" }}
+                  >
+                    Graduate of The Grace Hopper Program at Fullstack Academy
+                    (February 2023)
                   </Typography>
                 </Stack>
               </Stack>
