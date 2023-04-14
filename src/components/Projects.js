@@ -54,7 +54,7 @@ const Projects = () => {
       hostedLink: "https://augmented.onrender.com",
     },
     {
-      name: "Grace Shopper",
+      name: "Grace Pupper",
       description:
         "E-Commerce site where users can purchase puppy playdates! A persistent cart securely is maintained in the back-end database for logged-in users.",
       imageURL:
