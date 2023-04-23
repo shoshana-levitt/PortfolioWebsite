@@ -66,6 +66,11 @@ const AboutMe = () => {
                     creating clean, intuitive interfaces. I'm passionate about
                     delivering exceptional user experiences. <br></br>
                   </Typography>
+                  <Typography variant="h5" align="center" margin={3}>
+                    I'm currently seeking a full-time opportunity as a front-end
+                    or full-stack developer.
+                  </Typography>
+
                   <Typography
                     variant="h6"
                     align="center"
