@@ -64,11 +64,14 @@ const Skills = () => {
               <Typography variant="h2" align="center" margin={3}>
                 Skills
               </Typography>
-              <Typography variant="h5" align="center" margin={3}>
-                I'm trained in JavaScript and developing full-stack applications
-                using the PERN stack.<br></br>I'm always looking to build new
-                skills and expand my tech stack.
-              </Typography>
+              <Box width="75vw" display="flex">
+                <Typography variant="h5" align="center" margin={3}>
+                  I'm trained in JavaScript and developing full-stack
+                  applications using the PERN stack. I'm always looking to build
+                  new skills and expand my tech stack. I'm currently learning
+                  TypeScript!
+                </Typography>
+              </Box>
               <Stack
                 direction="column"
                 spacing={2}
