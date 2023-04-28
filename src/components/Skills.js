@@ -1,15 +1,6 @@
 import React, { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
-import {
-  Typography,
-  Box,
-  Grid,
-  Button,
-  ButtonGroup,
-  IconButton,
-  Stack,
-  Chip,
-} from "@mui/material";
+import { Typography, Box, Grid, Stack, Chip } from "@mui/material";
 import { motion, useAnimation } from "framer-motion";
 
 const Skills = () => {

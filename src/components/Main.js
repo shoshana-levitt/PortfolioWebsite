@@ -3,14 +3,7 @@ import { Link } from "react-scroll";
 import Homepage from "./Homepage";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
-import {
-  Button,
-  AppBar,
-  Toolbar,
-  IconButton,
-  Box,
-  Typography,
-} from "@mui/material";
+import { Button, AppBar, Toolbar, IconButton, Box } from "@mui/material";
 import {
   Home,
   LinkedIn,
