@@ -67,8 +67,8 @@ const AboutMe = () => {
                     delivering exceptional user experiences. <br></br>
                   </Typography>
                   <Typography variant="h5" align="center" margin={3}>
-                    I'm currently seeking a full-time opportunity as a front-end
-                    or full-stack developer.
+                    I'm currently seeking a full-time opportunity as a
+                    full-stack or front-end developer.
                   </Typography>
 
                   <Typography
