@@ -10,6 +10,7 @@ import {
   CardContent,
   CardMedia,
   IconButton,
+  Tooltip,
 } from "@mui/material";
 import { GitHub, Launch } from "@mui/icons-material";
 import { motion, useAnimation } from "framer-motion";
@@ -112,25 +113,29 @@ const Projects = () => {
                         </Typography>
                       </CardContent>
                       <CardActions>
-                        <IconButton
-                          href={project.gitHub}
-                          target="_blank"
-                          disableRipple
-                          color="primary"
-                          sx={{ m: 1, ":hover": { color: "#cfcfcf" } }}
-                        >
-                          <GitHub></GitHub>
-                        </IconButton>
-                        {project.hostedLink && (
+                        <Tooltip title="Github Repo" arrow>
                           <IconButton
-                            href={project.hostedLink}
+                            href={project.gitHub}
                             target="_blank"
                             disableRipple
                             color="primary"
                             sx={{ m: 1, ":hover": { color: "#cfcfcf" } }}
                           >
-                            <Launch></Launch>
+                            <GitHub></GitHub>
                           </IconButton>
+                        </Tooltip>
+                        {project.hostedLink && (
+                          <Tooltip title="Hosted Site" arrow>
+                            <IconButton
+                              href={project.hostedLink}
+                              target="_blank"
+                              disableRipple
+                              color="primary"
+                              sx={{ m: 1, ":hover": { color: "#cfcfcf" } }}
+                            >
+                              <Launch></Launch>
+                            </IconButton>
+                          </Tooltip>
                         )}
                       </CardActions>
                     </Card>
