@@ -115,6 +115,7 @@ const Projects = () => {
                       <CardActions>
                         <Tooltip title="Github Repo" arrow>
                           <IconButton
+                            className="pointer"
                             href={project.gitHub}
                             target="_blank"
                             disableRipple
@@ -127,6 +128,7 @@ const Projects = () => {
                         {project.hostedLink && (
                           <Tooltip title="Hosted Site" arrow>
                             <IconButton
+                              className="pointer"
                               href={project.hostedLink}
                               target="_blank"
                               disableRipple
