@@ -117,7 +117,7 @@ const Projects = () => {
                           <IconButton
                             className="pointer"
                             href={project.gitHub}
-                            target="_blank"
+                            target="_blank" 
                             disableRipple
                             color="primary"
                             sx={{ m: 1, ":hover": { color: "#cfcfcf" } }}
