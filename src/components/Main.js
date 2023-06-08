@@ -13,6 +13,12 @@ import {
 } from "@mui/icons-material";
 
 const Main = () => {
+  const hashLinks = [
+    { sectionName: "About Me", link: "#aboutme" },
+    { sectionName: "Skills", link: "#skills" },
+    { sectionName: "Projects", link: "#projects" },
+    { sectionName: "Contact", link: "#contact" },
+  ];
   return (
     <BrowserRouter>
       <div>
@@ -31,74 +37,25 @@ const Main = () => {
               >
                 <Home></Home>
               </IconButton>
-              <Button
-                component={HashLink}
-                smooth
-                to="#aboutme"
-                color="primary"
-                variant="text"
-                disableRipple
-                sx={{
-                  m: 1,
-                  ":hover": {
-                    backgroundColor: "transparent",
-                    color: "white",
-                  },
-                }}
-              >
-                About Me
-              </Button>
-              <Button
-                component={HashLink}
-                smooth
-                to="#skills"
-                color="primary"
-                variant="text"
-                disableRipple
-                sx={{
-                  m: 1,
-                  ":hover": {
-                    backgroundColor: "transparent",
-                    color: "white",
-                  },
-                }}
-              >
-                Skills
-              </Button>
-              <Button
-                component={HashLink}
-                smooth
-                to="#projects"
-                color="primary"
-                variant="text"
-                disableRipple
-                sx={{
-                  m: 1,
-                  ":hover": {
-                    backgroundColor: "transparent",
-                    color: "white",
-                  },
-                }}
-              >
-                Projects
-              </Button>
-              <Button
-                component={HashLink}
-                smooth
-                to="#contact"
-                color="primary"
-                variant="text"
-                disableRipple
-                sx={{
-                  m: 1,
-                  ":hover": {
-                    backgroundColor: "transparent",
-                    color: "white",
-                  },
-                }}
-              >
-                Contact
-              </Button>
+              {hashLinks.map((item) => (
+                <Button
+                  component={HashLink}
+                  smooth
+                  to={item.link}
+                  color="primary"
+                  variant="text"
+                  disableRipple
+                  sx={{
+                    m: 1,
+                    ":hover": {
+                      backgroundColor: "transparent",
+                      color: "white",
+                    },
+                  }}
+                >
+                  {item.sectionName}
+                </Button>
+              ))}
             </Box>
             <IconButton
               href="https://github.com/shoshana-levitt"
