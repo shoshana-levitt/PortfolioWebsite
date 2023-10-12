@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 import { Typography, Box, Grid, Avatar, Stack, Link } from "@mui/material";
 import { motion, useAnimation } from "framer-motion";
+import Timeline from "./Timeline";
 
 const AboutMe = () => {
   const boxVariant = {
@@ -83,6 +84,7 @@ const AboutMe = () => {
                     </Link>{" "}
                     (February 2023)
                   </Typography>
+                  <Timeline />
                 </Stack>
               </Stack>
             </Grid>
