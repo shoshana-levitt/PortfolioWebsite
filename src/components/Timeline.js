@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography, Link, Card, CardContent } from "@mui/material";
+import { Typography, Link, Card, CardContent, Box } from "@mui/material";
 import {
   Timeline,
   TimelineItem,
@@ -14,12 +14,20 @@ import TimelineOppositeContent, {
 
 const TimelineComponent = () => {
   return (
-    <Timeline>
+    <Timeline
+      sx={{
+        [`& .${timelineOppositeContentClasses.root}`]: {
+          flex: 0.4,
+        },
+      }}
+    >
       <TimelineItem>
         <TimelineOppositeContent>
-          <Typography variant="h6">Media Studies at NYU</Typography>
+          <Typography variant="h6">
+            Media Studies at New York University
+          </Typography>
           <Typography variant="subtitle2" sx={{ fontStyle: "italic" }}>
-            2018 • New York University - B.S. Media, Culture, & Communication
+            2018 • B.S. Media, Culture, & Communication
           </Typography>
         </TimelineOppositeContent>
         <TimelineSeparator>
@@ -29,13 +37,12 @@ const TimelineComponent = () => {
         <TimelineContent>
           <Card style={{ backgroundColor: "rgba(254, 253, 253, 0.1)" }}>
             <CardContent>
-              <Typography variant="body2" color="primary">
-                My academic journey at New York University provided a robust
-                foundation for my career in technology. My Bachelor of Science
-                in Media, Culture, and Communication (Steinhardt School of
-                Culture, Education, and Human Development) equipped me with the
-                essential tools to dissect the sociological, political, and
-                cultural dimensions of our media landscape.
+              <Typography variant="subtitle2" color="primary">
+                My academic journey at NYU provided a robust foundation for my
+                career in technology. My Bachelor of Science from the Steinhardt
+                School equipped me with the essential tools to dissect the
+                sociological, political, and cultural dimensions of our media
+                landscape.
               </Typography>
             </CardContent>
           </Card>
@@ -44,11 +51,18 @@ const TimelineComponent = () => {
       <TimelineItem>
         <TimelineOppositeContent>
           <Typography variant="h6">
-            Account Management & Customer Success
+            Account Management + Customer Success
           </Typography>
           <Typography variant="subtitle2" sx={{ fontStyle: "italic" }}>
-            2018 - 2020 • Account Manager at BetterHealthcare<br></br>
-            2020 - 2022 • Senior Member Experience Specialist at Current
+            2018 - 2020 • Account Manager at{" "}
+            <Link href="https://www.betterhealthcare.co/" target="_blank">
+              BetterHealthcare
+            </Link>
+            <br></br>
+            2020 - 2022 • Senior Member Experience Specialist at{" "}
+            <Link href="https://current.com/" target="_blank">
+              Current
+            </Link>
           </Typography>
         </TimelineOppositeContent>
         <TimelineSeparator>
@@ -58,7 +72,7 @@ const TimelineComponent = () => {
         <TimelineContent>
           <Card style={{ backgroundColor: "rgba(254, 253, 253, 0.1)" }}>
             <CardContent>
-              <Typography variant="body2" color="primary">
+              <Typography variant="subtitle2" color="primary">
                 In my past client-facing roles, for both B2B and B2C products, I
                 developed a unique perspective on how products can be improved
                 to better serve the needs of the end user. My experience has
@@ -86,16 +100,11 @@ const TimelineComponent = () => {
         <TimelineContent>
           <Card style={{ backgroundColor: "rgba(254, 253, 253, 0.1)" }}>
             <CardContent>
-              <Typography variant="body2" color="primary">
-                Through my software engineering training in an accelerated
-                bootcamp, I gained proficiency in Javascript and the PERN stack.
-                I developed applications both solo and in teams, using Git and
-                agile project management.<br></br>
-                <br></br>My unconventional background has uniquely enriched my
-                approach to software development. I believe that the most
-                impactful products are not just about excellent code and design;
-                but also must be experiences crafted to resonate with users on
-                both a personal and societal level.
+              <Typography variant="subtitle2" color="primary">
+                Through my training in an accelerated bootcamp, I gained
+                proficiency in Javascript and the PERN stack. I developed
+                applications both solo and in teams, using Git and agile project
+                management.
               </Typography>
             </CardContent>
           </Card>
