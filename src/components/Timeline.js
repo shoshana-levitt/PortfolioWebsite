@@ -39,8 +39,8 @@ const TimelineComponent = () => {
             <CardContent>
               <Typography variant="subtitle2" color="primary">
                 My academic journey at NYU provided a robust foundation for my
-                career in technology. My Bachelor of Science from the Steinhardt
-                School equipped me with the essential tools to dissect the
+                career in technology. My degree from the Steinhardt School
+                equipped me with the essential tools to dissect the
                 sociological, political, and cultural dimensions of our media
                 landscape.
               </Typography>
@@ -73,12 +73,12 @@ const TimelineComponent = () => {
           <Card style={{ backgroundColor: "rgba(254, 253, 253, 0.1)" }}>
             <CardContent>
               <Typography variant="subtitle2" color="primary">
-                In my past client-facing roles, for both B2B and B2C products, I
+                In my client-facing roles, for both B2B and B2C products, I
                 developed a unique perspective on how products can be improved
-                to better serve the needs of the end user. My experience has
-                also allowed me to hone my ability to collaborate with
-                cross-functional teams and communicate effectively with both
-                engineering and non-engineering stakeholders.
+                to better serve the needs of the end user. I honed my ability to
+                collaborate with cross-functional teams and communicate
+                effectively with both engineering and non-engineering
+                stakeholders.
               </Typography>
             </CardContent>
           </Card>
