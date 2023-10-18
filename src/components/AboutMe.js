@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
-import { Typography, Box, Grid, Avatar, Stack, Link } from "@mui/material";
+import { Typography, Box, Grid, Avatar, Stack } from "@mui/material";
 import { motion, useAnimation } from "framer-motion";
-import Timeline from "./Timeline";
+import TimelineComponent from "./Timeline";
 
 const AboutMe = () => {
   const boxVariant = {
@@ -71,20 +71,7 @@ const AboutMe = () => {
                     I'm currently seeking a full-time opportunity as a
                     full-stack or front-end developer.
                   </Typography>
-
-                  <Typography
-                    variant="h6"
-                    align="center"
-                    margin={3}
-                    sx={{ fontStyle: "italic" }}
-                  >
-                    Graduate of{" "}
-                    <Link href="https://www.gracehopper.com/" target="_blank">
-                      The Grace Hopper Program at Fullstack Academy
-                    </Link>{" "}
-                    (February 2023)
-                  </Typography>
-                  <Timeline />
+                  <TimelineComponent />
                 </Stack>
               </Stack>
             </Grid>
