@@ -46,11 +46,17 @@ const AboutMe = () => {
                 spacing={5}
                 margin={10}
               >
-                <Avatar
-                  alt="Shoshana Levitt"
-                  src="/media/headshot.jpg"
-                  sx={{ width: 200, height: 200 }}
-                />
+                <motion.div
+                  whileHover={{ scale: 1.03 }}
+                  transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                  key={2}
+                >
+                  <Avatar
+                    alt="Shoshana Levitt"
+                    src="/media/headshot.jpg"
+                    sx={{ width: 200, height: 200 }}
+                  />
+                </motion.div>
                 <Typography variant="h3" align="center" margin={3}>
                   Hi, I'm Shoshana Levitt.
                 </Typography>
