@@ -85,7 +85,7 @@ const Main = () => {
             </IconButton>
             <Button
               startIcon={<Description />}
-              href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:286b3ffe-3d8c-39cb-9870-935538780884"
+              href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:2921ab55-a421-3951-bd78-be16e02fae70"
               target="_blank"
               color="primary"
               variant="outlined"
