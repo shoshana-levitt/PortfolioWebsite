@@ -64,8 +64,8 @@ const AboutMe = () => {
                   I'm a full-stack software engineer based in NYC. My
                   unconventional background has uniquely enriched my approach to
                   software development. I believe that the most impactful
-                  products are not just about excellent code and design; but
-                  also must be experiences crafted to resonate with users on a
+                  products are not just about excellent code and design; they
+                  must be experiences crafted to resonate with users on a
                   personal level. Here's my story...
                 </Typography>
                 <TimelineComponent />
