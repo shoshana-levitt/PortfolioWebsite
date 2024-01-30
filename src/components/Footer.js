@@ -9,7 +9,7 @@ const Footer = () => {
         sx={{ backdropFilter: "blur(20px)" }}
       >
         <Typography variant="caption" align="center" margin={1}>
-          © 2023 Shoshana Levitt
+          © 2024 Shoshana Levitt
         </Typography>
       </footer>
     </>
