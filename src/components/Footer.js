@@ -4,7 +4,6 @@ import { Typography } from "@mui/material";
 const Footer = () => {
   const d = new Date();
   let year = d.getFullYear();
-  console.log(year);
   return (
     <>
       <footer

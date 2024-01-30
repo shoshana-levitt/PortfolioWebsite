@@ -109,6 +109,7 @@ const Main = () => {
           </Routes>
         </main>
       </div>
+      <div id="circular-cursor"></div>
     </BrowserRouter>
   );
 };
