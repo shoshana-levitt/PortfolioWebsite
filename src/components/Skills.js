@@ -25,13 +25,19 @@ const Skills = () => {
 
   const frontEndSkills = [
     "JavaScript",
+    "TypeScript",
     "HTML",
     "CSS",
-    "React",
+    "ReactJS",
+    "NextJS",
     "Redux",
+  ];
+
+  const frontEndSkills2 = [
     "Material UI",
     "Framer Motion",
-    "VexFlow",
+    "Tailwind",
+    "Bootstrap",
   ];
 
   const backEndSkills = ["NodeJS", "PostgreSQL", "Sequelize", "Express"];
@@ -55,7 +61,7 @@ const Skills = () => {
               <Typography variant="h2" align="center" margin={3}>
                 Skills
               </Typography>
-              <Box width="75vw" display="flex">
+              <Box width="75vw" display="flex" paddingBottom={5}>
                 <Typography variant="h5" align="center" margin={3}>
                   I'm trained in JavaScript and developing full-stack
                   applications using the PERN stack. I'm always looking to build
@@ -70,6 +76,26 @@ const Skills = () => {
               >
                 <Stack direction="row" spacing={2}>
                   {frontEndSkills.map((skill) => (
+                    <motion.div
+                      key={skill.name}
+                      whileHover={{ scale: 1.1 }}
+                      transition={{
+                        type: "spring",
+                        stiffness: 400,
+                        damping: 10,
+                      }}
+                    >
+                      <Chip
+                        label={skill}
+                        variant="outlined"
+                        color="primary"
+                        style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
+                      />
+                    </motion.div>
+                  ))}
+                </Stack>
+                <Stack direction="row" spacing={2}>
+                  {frontEndSkills2.map((skill) => (
                     <motion.div
                       key={skill.name}
                       whileHover={{ scale: 1.1 }}
