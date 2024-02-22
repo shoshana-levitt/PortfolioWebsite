@@ -71,6 +71,8 @@ const Background = () => {
                         sx={{ fontStyle: "italic" }}
                       >
                         2018 • B.S. Media, Culture, & Communication
+                        <br></br>
+                        Minor: Business of Entertainment, Media, & Technology
                       </Typography>
                     </TimelineOppositeContent>
                     <TimelineSeparator>
