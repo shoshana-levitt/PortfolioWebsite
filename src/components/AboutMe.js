@@ -60,12 +60,13 @@ const AboutMe = () => {
                   Hi, I'm Shoshana Levitt.
                 </Typography>
                 <Typography variant="h5" align="center" margin={3}>
-                  I'm a full-stack software engineer based in NYC. My
-                  unconventional background has uniquely enriched my approach to
-                  software development. I believe that the most impactful
-                  products are not just about excellent code and design; they
-                  must be experiences crafted to resonate with users on a
-                  personal level.
+                  I'm a full-stack software engineer based in NYC, specializing
+                  in front-end development.<br></br>
+                  <br></br>My unconventional background has uniquely enriched my
+                  approach to software development. I believe that the most
+                  impactful products are not just about excellent code and
+                  design; they must be experiences crafted to resonate with
+                  users on a personal level.
                 </Typography>
               </Stack>
             </Grid>

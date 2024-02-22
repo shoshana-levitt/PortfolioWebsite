@@ -95,7 +95,7 @@ const Background = () => {
                           }}
                         >
                           <CardContent>
-                            <Typography variant="subtitle2" color="primary">
+                            <Typography variant="subtitle1" color="primary">
                               My academic journey at NYU provided a robust
                               foundation for my career in technology. My degree
                               from the Steinhardt School equipped me with the
@@ -151,7 +151,7 @@ const Background = () => {
                           }}
                         >
                           <CardContent>
-                            <Typography variant="subtitle2" color="primary">
+                            <Typography variant="subtitle1" color="primary">
                               In my client-facing roles, for both B2B and B2C
                               products, I developed a unique perspective on how
                               products can be improved to better serve the needs
@@ -183,6 +183,7 @@ const Background = () => {
                     </TimelineOppositeContent>
                     <TimelineSeparator>
                       <TimelineDot />
+                      <TimelineConnector />
                     </TimelineSeparator>
                     <TimelineContent>
                       <motion.div
@@ -200,11 +201,53 @@ const Background = () => {
                           }}
                         >
                           <CardContent>
-                            <Typography variant="subtitle2" color="primary">
+                            <Typography variant="subtitle1" color="primary">
                               Through my training in an accelerated bootcamp, I
                               gained proficiency in Javascript and the PERN
                               stack. I developed applications both solo and in
                               teams, using Git and agile project management.
+                            </Typography>
+                          </CardContent>
+                        </Card>
+                      </motion.div>
+                    </TimelineContent>
+                  </TimelineItem>
+                  <TimelineItem>
+                    <TimelineOppositeContent>
+                      <Typography variant="h6">
+                        Web Development and Design
+                      </Typography>
+                      <Typography
+                        variant="subtitle2"
+                        sx={{ fontStyle: "italic" }}
+                      >
+                        2023 - Present • Shoshana Levitt Web Development
+                      </Typography>
+                    </TimelineOppositeContent>
+                    <TimelineSeparator>
+                      <TimelineDot />
+                    </TimelineSeparator>
+                    <TimelineContent>
+                      <motion.div
+                        whileHover={{ scale: 1.01 }}
+                        transition={{
+                          type: "spring",
+                          stiffness: 400,
+                          damping: 10,
+                        }}
+                        key={2}
+                      >
+                        <Card
+                          style={{
+                            backgroundColor: "rgba(254, 253, 253, 0.1)",
+                          }}
+                        >
+                          <CardContent>
+                            <Typography variant="subtitle1" color="primary">
+                              I currently work on freelance web development
+                              projects using NextJS; and offer web design
+                              services with a focus in SquareSpace
+                              customization.
                             </Typography>
                           </CardContent>
                         </Card>
