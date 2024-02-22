@@ -53,7 +53,7 @@ const AboutMe = () => {
                   <Avatar
                     alt="Shoshana Levitt"
                     src="/media/headshot.jpg"
-                    sx={{ width: 200, height: 200 }}
+                    sx={{ width: 250, height: 250 }}
                   />
                 </motion.div>
                 <Typography variant="h3" align="center" margin={3}>
