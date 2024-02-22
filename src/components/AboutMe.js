@@ -65,7 +65,7 @@ const AboutMe = () => {
                   software development. I believe that the most impactful
                   products are not just about excellent code and design; they
                   must be experiences crafted to resonate with users on a
-                  personal level. Here's my story...
+                  personal level.
                 </Typography>
               </Stack>
             </Grid>
