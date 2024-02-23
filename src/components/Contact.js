@@ -52,14 +52,13 @@ const Contact = () => {
                 <Button
                   startIcon={<Mail />}
                   href="mailto:shoshana.levitt@gmail.com"
-                  color="grey"
-                  variant="contained"
+                  color="primary"
+                  variant="outlined"
                   disableRipple
                   sx={{
                     m: 1,
                     ":hover": {
                       backgroundColor: "transparent",
-                      color: "white",
                     },
                   }}
                   style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}

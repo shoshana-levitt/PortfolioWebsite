@@ -91,7 +91,7 @@ const Projects = () => {
                     key={project.name}
                   >
                     <Card
-                      sx={{ width: 375 }}
+                      sx={{ width: 375, boxShadow: 5 }}
                       style={{ backgroundColor: "rgba(254, 253, 253, 0.3)" }}
                     >
                       <CardMedia
@@ -117,7 +117,7 @@ const Projects = () => {
                           <IconButton
                             className="pointer"
                             href={project.gitHub}
-                            target="_blank" 
+                            target="_blank"
                             disableRipple
                             color="primary"
                             sx={{ m: 1, ":hover": { color: "#cfcfcf" } }}

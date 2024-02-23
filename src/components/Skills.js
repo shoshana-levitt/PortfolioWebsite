@@ -90,6 +90,9 @@ const Skills = () => {
                         variant="outlined"
                         color="primary"
                         style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
+                        sx={{
+                          boxShadow: 5,
+                        }}
                       />
                     </motion.div>
                   ))}
@@ -110,6 +113,9 @@ const Skills = () => {
                         variant="outlined"
                         color="primary"
                         style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
+                        sx={{
+                          boxShadow: 5,
+                        }}
                       />
                     </motion.div>
                   ))}
@@ -130,6 +136,9 @@ const Skills = () => {
                         variant="outlined"
                         color="primary"
                         style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
+                        sx={{
+                          boxShadow: 5,
+                        }}
                       />
                     </motion.div>
                   ))}

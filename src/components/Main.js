@@ -96,6 +96,7 @@ const Main = () => {
                 ":hover": {
                   backgroundColor: "transparent",
                   color: "white",
+                  borderColor: "white",
                 },
               }}
             >

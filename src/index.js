@@ -15,14 +15,17 @@ const root = createRoot(container);
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#dfdfdf",
+      main: "#101010",
     },
     secondary: {
-      main: "#303030",
+      main: "#101010",
     },
   },
   typography: {
     fontFamily: ["Roboto", "sans-serif"].join(","),
+    allVariants: {
+      color: "#101010",
+    },
   },
 });
 

@@ -93,6 +93,9 @@ const Background = () => {
                           style={{
                             backgroundColor: "rgba(254, 253, 253, 0.1)",
                           }}
+                          sx={{
+                            boxShadow: 7,
+                          }}
                         >
                           <CardContent>
                             <Typography variant="subtitle1" color="primary">
@@ -149,6 +152,9 @@ const Background = () => {
                           style={{
                             backgroundColor: "rgba(254, 253, 253, 0.1)",
                           }}
+                          sx={{
+                            boxShadow: 7,
+                          }}
                         >
                           <CardContent>
                             <Typography variant="subtitle1" color="primary">
@@ -199,6 +205,9 @@ const Background = () => {
                           style={{
                             backgroundColor: "rgba(254, 253, 253, 0.1)",
                           }}
+                          sx={{
+                            boxShadow: 7,
+                          }}
                         >
                           <CardContent>
                             <Typography variant="subtitle1" color="primary">
@@ -240,6 +249,9 @@ const Background = () => {
                         <Card
                           style={{
                             backgroundColor: "rgba(254, 253, 253, 0.1)",
+                          }}
+                          sx={{
+                            boxShadow: 7,
                           }}
                         >
                           <CardContent>
