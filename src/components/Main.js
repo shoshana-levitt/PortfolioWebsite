@@ -11,6 +11,7 @@ import {
   Email,
   Description,
 } from "@mui/icons-material";
+import { motion, useAnimation } from "framer-motion";
 
 const Main = () => {
   const hashLinks = [
@@ -34,7 +35,7 @@ const Main = () => {
                 href="/"
                 color="primary"
                 disableRipple
-                sx={{ ":hover": { color: "white" } }}
+                sx={{ ":hover": { color: "#999999" } }}
               >
                 <Home></Home>
               </IconButton>
@@ -50,7 +51,7 @@ const Main = () => {
                     m: 1,
                     ":hover": {
                       backgroundColor: "transparent",
-                      color: "white",
+                      color: "#999999",
                     },
                   }}
                 >
@@ -63,7 +64,7 @@ const Main = () => {
               target="_blank"
               color="primary"
               disableRipple
-              sx={{ m: 1, ":hover": { color: "white" } }}
+              sx={{ m: 1, ":hover": { color: "#999999" } }}
             >
               <GitHub></GitHub>
             </IconButton>
@@ -72,7 +73,7 @@ const Main = () => {
               target="_blank"
               color="primary"
               disableRipple
-              sx={{ m: 1, ":hover": { color: "white" } }}
+              sx={{ m: 1, ":hover": { color: "#999999" } }}
             >
               <LinkedIn></LinkedIn>
             </IconButton>
@@ -80,7 +81,7 @@ const Main = () => {
               href="mailto:shoshana.levitt@gmail.com"
               color="primary"
               disableRipple
-              sx={{ m: 1, ":hover": { color: "white" } }}
+              sx={{ m: 1, ":hover": { color: "#999999" } }}
             >
               <Email></Email>
             </IconButton>
@@ -95,8 +96,8 @@ const Main = () => {
                 m: 1,
                 ":hover": {
                   backgroundColor: "transparent",
-                  color: "white",
-                  borderColor: "white",
+                  color: "#999999",
+                  borderColor: "#999999",
                 },
               }}
             >
