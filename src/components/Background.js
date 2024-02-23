@@ -224,7 +224,7 @@ const Background = () => {
                   <TimelineItem>
                     <TimelineOppositeContent>
                       <Typography variant="h6">
-                        Web Development and Design
+                        Web Development + Design
                       </Typography>
                       <Typography
                         variant="subtitle2"
