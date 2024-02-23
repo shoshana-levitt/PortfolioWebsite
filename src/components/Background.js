@@ -258,7 +258,7 @@ const Background = () => {
                             <Typography variant="subtitle1" color="primary">
                               I currently work on freelance web development
                               projects using NextJS; and offer web design
-                              services with a focus in SquareSpace
+                              services with a focus in Squarespace
                               customization.
                             </Typography>
                           </CardContent>
