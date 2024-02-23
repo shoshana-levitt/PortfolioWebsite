@@ -22,7 +22,7 @@ const theme = createTheme({
     },
   },
   typography: {
-    fontFamily: ["Roboto", "sans-serif"].join(","),
+    fontFamily: ["Inter", "sans-serif"].join(","),
     allVariants: {
       color: "#101010",
     },
