@@ -16,7 +16,7 @@ import { motion, useAnimation } from "framer-motion";
 const Main = () => {
   const hashLinks = [
     { sectionName: "About Me", link: "#aboutme" },
-    { sectionName: "Backgorund", link: "#background" },
+    { sectionName: "Background", link: "#background" },
     { sectionName: "Skills", link: "#skills" },
     { sectionName: "Projects", link: "#projects" },
     { sectionName: "Contact", link: "#contact" },
