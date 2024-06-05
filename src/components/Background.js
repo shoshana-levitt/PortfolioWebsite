@@ -64,56 +64,6 @@ const Background = () => {
                   <TimelineItem>
                     <TimelineOppositeContent>
                       <Typography variant="h6">
-                        Media Studies at New York University
-                      </Typography>
-                      <Typography
-                        variant="subtitle2"
-                        sx={{ fontStyle: "italic" }}
-                      >
-                        2018 • B.S. Media, Culture, & Communication
-                        <br></br>
-                        Minor: Business of Entertainment, Media, & Technology
-                      </Typography>
-                    </TimelineOppositeContent>
-                    <TimelineSeparator>
-                      <TimelineDot />
-                      <TimelineConnector />
-                    </TimelineSeparator>
-                    <TimelineContent>
-                      <motion.div
-                        whileHover={{ scale: 1.01 }}
-                        transition={{
-                          type: "spring",
-                          stiffness: 400,
-                          damping: 10,
-                        }}
-                        key={1}
-                      >
-                        <Card
-                          style={{
-                            backgroundColor: "rgba(254, 253, 253, 0.1)",
-                          }}
-                          sx={{
-                            boxShadow: 7,
-                          }}
-                        >
-                          <CardContent>
-                            <Typography variant="subtitle1" color="primary">
-                              My academic journey at NYU provided a robust
-                              foundation for my career in technology. My degree
-                              from the Steinhardt School equipped me with the
-                              essential tools to dissect the sociological,
-                              political, and cultural dimensions of our media
-                              landscape.
-                            </Typography>
-                          </CardContent>
-                        </Card>
-                      </motion.div>
-                    </TimelineContent>
-                  </TimelineItem>
-                  <TimelineItem>
-                    <TimelineOppositeContent>
-                      <Typography variant="h6">
                         Account Management + Customer Success
                       </Typography>
                       <Typography
@@ -215,6 +165,57 @@ const Background = () => {
                               gained proficiency in Javascript and the PERN
                               stack. I developed applications both solo and in
                               teams, using Git and agile project management.
+                            </Typography>
+                          </CardContent>
+                        </Card>
+                      </motion.div>
+                    </TimelineContent>
+                  </TimelineItem>
+                  <TimelineItem>
+                    <TimelineOppositeContent>
+                      <Typography variant="h6">
+                        Artificial Intelligence
+                      </Typography>
+                      <Typography
+                        variant="subtitle2"
+                        sx={{ fontStyle: "italic" }}
+                      >
+                        2024 •{" "}
+                        <Link
+                          href="https://maven.com/aimakerspace/ai-eng-bootcamp"
+                          target="_blank"
+                        >
+                          AI Makerspace
+                        </Link>
+                      </Typography>
+                    </TimelineOppositeContent>
+                    <TimelineSeparator>
+                      <TimelineDot />
+                      <TimelineConnector />
+                    </TimelineSeparator>
+                    <TimelineContent>
+                      <motion.div
+                        whileHover={{ scale: 1.01 }}
+                        transition={{
+                          type: "spring",
+                          stiffness: 400,
+                          damping: 10,
+                        }}
+                        key={3}
+                      >
+                        <Card
+                          style={{
+                            backgroundColor: "rgba(254, 253, 253, 0.1)",
+                          }}
+                          sx={{
+                            boxShadow: 7,
+                          }}
+                        >
+                          <CardContent>
+                            <Typography variant="subtitle1" color="primary">
+                              I became a Certified AI Engineer and have an
+                              interest in buildling and fine-tuning large
+                              language models (LLMs).
                             </Typography>
                           </CardContent>
                         </Card>
