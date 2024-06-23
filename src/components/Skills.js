@@ -42,6 +42,25 @@ const Skills = () => {
 
   const backEndSkills = ["NodeJS", "PostgreSQL", "Sequelize", "Express"];
 
+  const AISkills = [
+    "OpenAI API",
+    "LangChain",
+    "LlamaIndex",
+    "Chainlit",
+    "Hugging Face",
+  ];
+
+  const otherSkills = [
+    "Visual Studio Code",
+    "Github",
+    "JIRA",
+    "Zendesk",
+    "Salesforce",
+    "Figma",
+    "Adobe Photoshop",
+    "Squarespace",
+  ];
+
   return (
     <>
       <section id="skills">
@@ -122,6 +141,52 @@ const Skills = () => {
                 </Stack>
                 <Stack direction="row" spacing={2}>
                   {backEndSkills.map((skill) => (
+                    <motion.div
+                      key={skill.name}
+                      whileHover={{ scale: 1.1 }}
+                      transition={{
+                        type: "spring",
+                        stiffness: 400,
+                        damping: 10,
+                      }}
+                    >
+                      <Chip
+                        label={skill}
+                        variant="outlined"
+                        color="primary"
+                        style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
+                        sx={{
+                          boxShadow: 5,
+                        }}
+                      />
+                    </motion.div>
+                  ))}
+                </Stack>
+                <Stack direction="row" spacing={2}>
+                  {AISkills.map((skill) => (
+                    <motion.div
+                      key={skill.name}
+                      whileHover={{ scale: 1.1 }}
+                      transition={{
+                        type: "spring",
+                        stiffness: 400,
+                        damping: 10,
+                      }}
+                    >
+                      <Chip
+                        label={skill}
+                        variant="outlined"
+                        color="primary"
+                        style={{ backgroundColor: "rgba(254, 253, 253, 0.2)" }}
+                        sx={{
+                          boxShadow: 5,
+                        }}
+                      />
+                    </motion.div>
+                  ))}
+                </Stack>
+                <Stack direction="row" spacing={2}>
+                  {otherSkills.map((skill) => (
                     <motion.div
                       key={skill.name}
                       whileHover={{ scale: 1.1 }}
