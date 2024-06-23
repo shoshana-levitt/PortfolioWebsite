@@ -53,7 +53,7 @@ const Background = () => {
               <Typography variant="h2" align="center" margin={3}>
                 Background
               </Typography>
-              <Box width="100vw" display="flex">
+              <Box width="90vw" display="flex">
                 <Timeline
                   sx={{
                     [`& .${timelineOppositeContentClasses.root}`]: {
