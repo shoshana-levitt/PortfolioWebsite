@@ -123,7 +123,9 @@ const Background = () => {
                   </TimelineItem>
                   <TimelineItem>
                     <TimelineOppositeContent>
-                      <Typography variant="h6">Software Engineering</Typography>
+                      <Typography variant="h6">
+                        Software Engineering + Artificial Intelligence
+                      </Typography>
                       <Typography
                         variant="subtitle2"
                         sx={{ fontStyle: "italic" }}
@@ -135,46 +137,6 @@ const Background = () => {
                         >
                           The Grace Hopper Program at Fullstack Academy
                         </Link>
-                      </Typography>
-                    </TimelineOppositeContent>
-                    <TimelineSeparator>
-                      <TimelineDot />
-                      <TimelineConnector />
-                    </TimelineSeparator>
-                    <TimelineContent>
-                      <motion.div
-                        whileHover={{ scale: 1.01 }}
-                        transition={{
-                          type: "spring",
-                          stiffness: 400,
-                          damping: 10,
-                        }}
-                        key={3}
-                      >
-                        <Card
-                          style={{
-                            backgroundColor: "rgba(254, 253, 253, 0.1)",
-                          }}
-                          sx={{
-                            boxShadow: 7,
-                          }}
-                        >
-                          <CardContent>
-                            <Typography variant="subtitle1" color="primary">
-                              Through my training in an accelerated bootcamp, I
-                              gained proficiency in Javascript and the PERN
-                              stack. I developed applications both solo and in
-                              teams, using Git and agile project management.
-                            </Typography>
-                          </CardContent>
-                        </Card>
-                      </motion.div>
-                    </TimelineContent>
-                  </TimelineItem>
-                  <TimelineItem>
-                    <TimelineOppositeContent>
-                      <Typography variant="h6">
-                        Artificial Intelligence
                       </Typography>
                       <Typography
                         variant="subtitle2"
@@ -213,7 +175,11 @@ const Background = () => {
                         >
                           <CardContent>
                             <Typography variant="subtitle1" color="primary">
-                              I became a Certified AI Engineer and have an
+                              Through my training in an accelerated bootcamp, I
+                              gained proficiency in Javascript and the PERN
+                              stack. I developed applications both solo and in
+                              teams, using Git and agile project management. I
+                              became a Certified AI Engineer and have an
                               interest in buildling and fine-tuning large
                               language models (LLMs).
                             </Typography>
@@ -257,10 +223,8 @@ const Background = () => {
                         >
                           <CardContent>
                             <Typography variant="subtitle1" color="primary">
-                              I currently work on freelance web development
-                              projects using NextJS; and offer web design
-                              services with a focus in Squarespace
-                              customization.
+                              I offer web design services with a focus in
+                              Squarespace customization.
                             </Typography>
                           </CardContent>
                         </Card>
