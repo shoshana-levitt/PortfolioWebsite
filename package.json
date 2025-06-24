@@ -4,10 +4,8 @@
   "description": "A review time project",
   "main": "index.js",
   "scripts": {
-    "start": "npm run build-watch & npm run start-server ",
-    "build-watch": "webpack -w",
-    "build": "webpack",
-    "start-server": "nodemon --watch server -e js,html server/index.js"
+    "start": "node server/index.js",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
